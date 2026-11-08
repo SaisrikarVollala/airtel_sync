@@ -1,0 +1,202 @@
+[
+  {
+    "product_id": "P14",
+    "times_recommended": 813,
+    "times_activated": 52,
+    "conversion_rate": 0.064,
+    "avg_nps": 6.88,
+    "churn_rate": 0.115
+  },
+  {
+    "product_id": "P15",
+    "times_recommended": 827,
+    "times_activated": 51,
+    "conversion_rate": 0.062,
+    "avg_nps": 7.18,
+    "churn_rate": 0.255
+  },
+  {
+    "product_id": "P22",
+    "times_recommended": 814,
+    "times_activated": 46,
+    "conversion_rate": 0.057,
+    "avg_nps": 7.2,
+    "churn_rate": 0.174
+  },
+  {
+    "product_id": "P07",
+    "times_recommended": 838,
+    "times_activated": 45,
+    "conversion_rate": 0.054,
+    "avg_nps": 6.82,
+    "churn_rate": 0.244
+  },
+  {
+    "product_id": "P01",
+    "times_recommended": 713,
+    "times_activated": 40,
+    "conversion_rate": 0.056,
+    "avg_nps": 6.88,
+    "churn_rate": 0.175
+  },
+  {
+    "product_id": "P04",
+    "times_recommended": 719,
+    "times_activated": 39,
+    "conversion_rate": 0.054,
+    "avg_nps": 6.97,
+    "churn_rate": 0.077
+  },
+  {
+    "product_id": "P23",
+    "times_recommended": 787,
+    "times_activated": 36,
+    "conversion_rate": 0.046,
+    "avg_nps": 6.92,
+    "churn_rate": 0.167
+  },
+  {
+    "product_id": "P18",
+    "times_recommended": 748,
+    "times_activated": 34,
+    "conversion_rate": 0.045,
+    "avg_nps": 6.97,
+    "churn_rate": 0.118
+  },
+  {
+    "product_id": "P03",
+    "times_recommended": 272,
+    "times_activated": 34,
+    "conversion_rate": 0.125,
+    "avg_nps": 7.21,
+    "churn_rate": 0.147
+  },
+  {
+    "product_id": "P20",
+    "times_recommended": 278,
+    "times_activated": 34,
+    "conversion_rate": 0.122,
+    "avg_nps": 7.0,
+    "churn_rate": 0.088
+  },
+  {
+    "product_id": "P21",
+    "times_recommended": 259,
+    "times_activated": 32,
+    "conversion_rate": 0.124,
+    "avg_nps": 6.44,
+    "churn_rate": 0.062
+  },
+  {
+    "product_id": "P19",
+    "times_recommended": 677,
+    "times_activated": 31,
+    "conversion_rate": 0.046,
+    "avg_nps": 7.32,
+    "churn_rate": 0.258
+  },
+  {
+    "product_id": "P16",
+    "times_recommended": 245,
+    "times_activated": 29,
+    "conversion_rate": 0.118,
+    "avg_nps": 7.31,
+    "churn_rate": 0.207
+  },
+  {
+    "product_id": "P08",
+    "times_recommended": 283,
+    "times_activated": 28,
+    "conversion_rate": 0.099,
+    "avg_nps": 7.14,
+    "churn_rate": 0.036
+  },
+  {
+    "product_id": "P17",
+    "times_recommended": 192,
+    "times_activated": 27,
+    "conversion_rate": 0.141,
+    "avg_nps": 6.93,
+    "churn_rate": 0.111
+  },
+  {
+    "product_id": "P09",
+    "times_recommended": 192,
+    "times_activated": 24,
+    "conversion_rate": 0.125,
+    "avg_nps": 7.29,
+    "churn_rate": 0.167
+  },
+  {
+    "product_id": "P13",
+    "times_recommended": 237,
+    "times_activated": 23,
+    "conversion_rate": 0.097,
+    "avg_nps": 7.04,
+    "churn_rate": 0.087
+  },
+  {
+    "product_id": "P12",
+    "times_recommended": 218,
+    "times_activated": 20,
+    "conversion_rate": 0.092,
+    "avg_nps": 6.6,
+    "churn_rate": 0.05
+  },
+  {
+    "product_id": "P02",
+    "times_recommended": 235,
+    "times_activated": 18,
+    "conversion_rate": 0.077,
+    "avg_nps": 7.0,
+    "churn_rate": 0.167
+  },
+  {
+    "product_id": "P11",
+    "times_recommended": 192,
+    "times_activated": 18,
+    "conversion_rate": 0.094,
+    "avg_nps": 7.06,
+    "churn_rate": 0.111
+  },
+  {
+    "product_id": "P25",
+    "times_recommended": 119,
+    "times_activated": 17,
+    "conversion_rate": 0.143,
+    "avg_nps": 6.35,
+    "churn_rate": 0.059
+  },
+  {
+    "product_id": "P05",
+    "times_recommended": 128,
+    "times_activated": 15,
+    "conversion_rate": 0.117,
+    "avg_nps": 5.27,
+    "churn_rate": 0.067
+  },
+  {
+    "product_id": "P10",
+    "times_recommended": 103,
+    "times_activated": 10,
+    "conversion_rate": 0.097,
+    "avg_nps": 5.8,
+    "churn_rate": 0.1
+  },
+  {
+    "product_id": "P06",
+    "times_recommended": 42,
+    "times_activated": 6,
+    "conversion_rate": 0.143,
+    "avg_nps": 6.0,
+    "churn_rate": 0.333
+  },
+  {
+    "product_id": "P24",
+    "times_recommended": 40,
+    "times_activated": 4,
+    "conversion_rate": 0.1,
+    "avg_nps": 7.0,
+    "churn_rate": 0.25
+  }
+]

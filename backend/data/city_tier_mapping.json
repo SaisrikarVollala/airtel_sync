@@ -1,0 +1,2450 @@
+[
+  {
+    "city": "Ahmedabad",
+    "city_tier": 1,
+    "state": "Gujarat",
+    "population_lakh": 55.78,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Bangalore",
+    "city_tier": 1,
+    "state": "Karnataka",
+    "population_lakh": 84.44,
+    "aliases": [
+      "Bengaluru",
+      "Blr"
+    ],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Chennai",
+    "city_tier": 1,
+    "state": "Tamil Nadu",
+    "population_lakh": 46.47,
+    "aliases": [
+      "Madras"
+    ],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Delhi",
+    "city_tier": 1,
+    "state": "Delhi",
+    "population_lakh": 110.35,
+    "aliases": [
+      "NCR",
+      "Delhi NCR",
+      "New Delhi"
+    ],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Hyderabad",
+    "city_tier": 1,
+    "state": "Telangana",
+    "population_lakh": 69.93,
+    "aliases": [
+      "Hyd",
+      "Cyberabad",
+      "Secunderabad"
+    ],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Kolkata",
+    "city_tier": 1,
+    "state": "West Bengal",
+    "population_lakh": 44.97,
+    "aliases": [
+      "Calcutta"
+    ],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Mumbai",
+    "city_tier": 1,
+    "state": "Maharashtra",
+    "population_lakh": 124.42,
+    "aliases": [
+      "Bombay",
+      "Thane",
+      "Navi Mumbai"
+    ],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Pune",
+    "city_tier": 1,
+    "state": "Maharashtra",
+    "population_lakh": 31.24,
+    "aliases": [
+      "Pimpri-Chinchwad",
+      "Poona"
+    ],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Agra",
+    "city_tier": 2,
+    "state": "Uttar Pradesh",
+    "population_lakh": 15.86,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Ajmer",
+    "city_tier": 2,
+    "state": "Rajasthan",
+    "population_lakh": 5.43,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Amritsar",
+    "city_tier": 2,
+    "state": "Punjab",
+    "population_lakh": 11.32,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Bhopal",
+    "city_tier": 2,
+    "state": "Madhya Pradesh",
+    "population_lakh": 17.98,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Bhubaneswar",
+    "city_tier": 2,
+    "state": "Odisha",
+    "population_lakh": 8.38,
+    "aliases": [
+      "Cuttack"
+    ],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Chandigarh",
+    "city_tier": 2,
+    "state": "Chandigarh",
+    "population_lakh": 9.61,
+    "aliases": [
+      "Mohali",
+      "Panchkula",
+      "Tricity"
+    ],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Faridabad",
+    "city_tier": 2,
+    "state": "Haryana",
+    "population_lakh": 14.14,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Ghaziabad",
+    "city_tier": 2,
+    "state": "Uttar Pradesh",
+    "population_lakh": 16.49,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Jaipur",
+    "city_tier": 2,
+    "state": "Rajasthan",
+    "population_lakh": 30.46,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Jamshedpur",
+    "city_tier": 2,
+    "state": "Jharkhand",
+    "population_lakh": 6.31,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Kanpur",
+    "city_tier": 2,
+    "state": "Uttar Pradesh",
+    "population_lakh": 27.65,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Kochi",
+    "city_tier": 2,
+    "state": "Kerala",
+    "population_lakh": 6.02,
+    "aliases": [
+      "Cochin",
+      "Ernakulam"
+    ],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Lucknow",
+    "city_tier": 2,
+    "state": "Uttar Pradesh",
+    "population_lakh": 28.17,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Mysore",
+    "city_tier": 2,
+    "state": "Karnataka",
+    "population_lakh": 8.87,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Nagpur",
+    "city_tier": 2,
+    "state": "Maharashtra",
+    "population_lakh": 24.06,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Patna",
+    "city_tier": 2,
+    "state": "Bihar",
+    "population_lakh": 16.84,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Raipur",
+    "city_tier": 2,
+    "state": "Chhattisgarh",
+    "population_lakh": 10.1,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Srinagar",
+    "city_tier": 2,
+    "state": "Jammu and Kashmir",
+    "population_lakh": 11.81,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Surat",
+    "city_tier": 2,
+    "state": "Gujarat",
+    "population_lakh": 44.68,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Visakhapatnam",
+    "city_tier": 2,
+    "state": "Andhra Pradesh",
+    "population_lakh": 17.28,
+    "aliases": [
+      "Vizag",
+      "Waltair"
+    ],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Bikaner",
+    "city_tier": 3,
+    "state": "Rajasthan",
+    "population_lakh": 6.48,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Cuttack",
+    "city_tier": 3,
+    "state": "Odisha",
+    "population_lakh": 6.06,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Etawah",
+    "city_tier": 3,
+    "state": "Uttar Pradesh",
+    "population_lakh": 2.57,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Gandhinagar",
+    "city_tier": 3,
+    "state": "Gujarat",
+    "population_lakh": 2.06,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Hajipur",
+    "city_tier": 3,
+    "state": "Bihar",
+    "population_lakh": 1.47,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Jhansi",
+    "city_tier": 3,
+    "state": "Uttar Pradesh",
+    "population_lakh": 5.07,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Junagadh",
+    "city_tier": 3,
+    "state": "Gujarat",
+    "population_lakh": 3.2,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Madurai",
+    "city_tier": 3,
+    "state": "Tamil Nadu",
+    "population_lakh": 10.18,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Mathura",
+    "city_tier": 3,
+    "state": "Uttar Pradesh",
+    "population_lakh": 3.49,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Meerut",
+    "city_tier": 3,
+    "state": "Uttar Pradesh",
+    "population_lakh": 13.05,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Nashik",
+    "city_tier": 3,
+    "state": "Maharashtra",
+    "population_lakh": 14.86,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Rohtak",
+    "city_tier": 3,
+    "state": "Haryana",
+    "population_lakh": 3.73,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Salem",
+    "city_tier": 3,
+    "state": "Tamil Nadu",
+    "population_lakh": 8.31,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Udaipur",
+    "city_tier": 3,
+    "state": "Rajasthan",
+    "population_lakh": 4.52,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Vijayawada",
+    "city_tier": 3,
+    "state": "Andhra Pradesh",
+    "population_lakh": 10.34,
+    "aliases": [
+      "Amaravati"
+    ],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Adoni",
+    "city_tier": 3,
+    "state": "Andhra Pradesh",
+    "population_lakh": 1.67,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Agartala",
+    "city_tier": 3,
+    "state": "Tripura",
+    "population_lakh": 4.0,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Ahmednagar",
+    "city_tier": 3,
+    "state": "Maharashtra",
+    "population_lakh": 3.51,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Aizawl",
+    "city_tier": 3,
+    "state": "Mizoram",
+    "population_lakh": 2.92,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Akola",
+    "city_tier": 3,
+    "state": "Maharashtra",
+    "population_lakh": 5.37,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Alappuzha",
+    "city_tier": 3,
+    "state": "Kerala",
+    "population_lakh": 1.74,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Aligarh",
+    "city_tier": 3,
+    "state": "Uttar Pradesh",
+    "population_lakh": 8.73,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Allahabad",
+    "city_tier": 2,
+    "state": "Uttar Pradesh",
+    "population_lakh": 11.13,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Alwar",
+    "city_tier": 3,
+    "state": "Rajasthan",
+    "population_lakh": 3.15,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Amaravati",
+    "city_tier": 3,
+    "state": "Andhra Pradesh",
+    "population_lakh": 1.03,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Ambala",
+    "city_tier": 3,
+    "state": "Haryana",
+    "population_lakh": 1.95,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Ambattur",
+    "city_tier": 3,
+    "state": "Tamil Nadu",
+    "population_lakh": 4.78,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Ambernath",
+    "city_tier": 3,
+    "state": "Maharashtra",
+    "population_lakh": 2.54,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Amravati",
+    "city_tier": 3,
+    "state": "Maharashtra",
+    "population_lakh": 6.47,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Amroha",
+    "city_tier": 3,
+    "state": "Uttar Pradesh",
+    "population_lakh": 1.98,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Anand",
+    "city_tier": 3,
+    "state": "Gujarat",
+    "population_lakh": 1.98,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Anantapur",
+    "city_tier": 3,
+    "state": "Andhra Pradesh",
+    "population_lakh": 2.61,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Arrah",
+    "city_tier": 3,
+    "state": "Bihar",
+    "population_lakh": 2.61,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Asansol",
+    "city_tier": 3,
+    "state": "West Bengal",
+    "population_lakh": 5.64,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Aurangabad",
+    "city_tier": 2,
+    "state": "Bihar",
+    "population_lakh": 11.75,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Aurangabad",
+    "city_tier": 2,
+    "state": "Maharashtra",
+    "population_lakh": 11.75,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Avadi",
+    "city_tier": 3,
+    "state": "Tamil Nadu",
+    "population_lakh": 3.45,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Bagaha",
+    "city_tier": 3,
+    "state": "Bihar",
+    "population_lakh": 1.13,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Baharampur",
+    "city_tier": 3,
+    "state": "West Bengal",
+    "population_lakh": 1.95,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Bahraich",
+    "city_tier": 3,
+    "state": "Uttar Pradesh",
+    "population_lakh": 1.86,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Bally",
+    "city_tier": 3,
+    "state": "West Bengal",
+    "population_lakh": 2.92,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Baranagar",
+    "city_tier": 3,
+    "state": "West Bengal",
+    "population_lakh": 2.48,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Barasat",
+    "city_tier": 3,
+    "state": "West Bengal",
+    "population_lakh": 2.83,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Bardhaman",
+    "city_tier": 3,
+    "state": "West Bengal",
+    "population_lakh": 3.15,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Bareily",
+    "city_tier": 3,
+    "state": "Uttar Pradesh",
+    "population_lakh": 8.78,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Bathinda",
+    "city_tier": 3,
+    "state": "Punjab",
+    "population_lakh": 2.86,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Begusarai",
+    "city_tier": 3,
+    "state": "Bihar",
+    "population_lakh": 2.51,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Belgaum",
+    "city_tier": 3,
+    "state": "Karnataka",
+    "population_lakh": 4.88,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Bellary",
+    "city_tier": 3,
+    "state": "Karnataka",
+    "population_lakh": 4.1,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Berhampur",
+    "city_tier": 3,
+    "state": "Odisha",
+    "population_lakh": 3.56,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Bettiah",
+    "city_tier": 3,
+    "state": "Bihar",
+    "population_lakh": 1.33,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Bhagalpur",
+    "city_tier": 3,
+    "state": "Bihar",
+    "population_lakh": 3.98,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Bhalswa Jahangir Pur",
+    "city_tier": 3,
+    "state": "Delhi",
+    "population_lakh": 1.97,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Bharatpur",
+    "city_tier": 3,
+    "state": "Rajasthan",
+    "population_lakh": 2.52,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Bhatpara",
+    "city_tier": 3,
+    "state": "West Bengal",
+    "population_lakh": 3.9,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Bhavnagar",
+    "city_tier": 3,
+    "state": "Gujarat",
+    "population_lakh": 5.94,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Bhilai",
+    "city_tier": 3,
+    "state": "Chhattisgarh",
+    "population_lakh": 6.26,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Bhilwara",
+    "city_tier": 3,
+    "state": "Rajasthan",
+    "population_lakh": 3.6,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Bhimavaram",
+    "city_tier": 3,
+    "state": "Andhra Pradesh",
+    "population_lakh": 1.42,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Bhind",
+    "city_tier": 3,
+    "state": "Madhya Pradesh",
+    "population_lakh": 1.98,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Bhiwandi",
+    "city_tier": 3,
+    "state": "Maharashtra",
+    "population_lakh": 7.11,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Bhiwani",
+    "city_tier": 3,
+    "state": "Haryana",
+    "population_lakh": 1.96,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Bhusawal",
+    "city_tier": 3,
+    "state": "Maharashtra",
+    "population_lakh": 1.87,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Bidar",
+    "city_tier": 3,
+    "state": "Karnataka",
+    "population_lakh": 2.14,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Bidhan Nagar",
+    "city_tier": 3,
+    "state": "West Bengal",
+    "population_lakh": 2.16,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Bihar Sharif",
+    "city_tier": 3,
+    "state": "Bihar",
+    "population_lakh": 2.97,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Bijapur",
+    "city_tier": 3,
+    "state": "Karnataka",
+    "population_lakh": 3.26,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Bilaspur",
+    "city_tier": 3,
+    "state": "Chhattisgarh",
+    "population_lakh": 3.3,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Bokaro",
+    "city_tier": 3,
+    "state": "Jharkhand",
+    "population_lakh": 4.14,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Bulandshahr",
+    "city_tier": 3,
+    "state": "Uttar Pradesh",
+    "population_lakh": 2.23,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Burhanpur",
+    "city_tier": 3,
+    "state": "Madhya Pradesh",
+    "population_lakh": 2.11,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Buxar",
+    "city_tier": 3,
+    "state": "Bihar",
+    "population_lakh": 1.03,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Chandrapur",
+    "city_tier": 3,
+    "state": "Maharashtra",
+    "population_lakh": 3.21,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Chapra",
+    "city_tier": 3,
+    "state": "Bihar",
+    "population_lakh": 2.02,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Chittoor",
+    "city_tier": 3,
+    "state": "Andhra Pradesh",
+    "population_lakh": 1.89,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Coimbatore",
+    "city_tier": 2,
+    "state": "Tamil Nadu",
+    "population_lakh": 10.51,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Danapur",
+    "city_tier": 3,
+    "state": "Bihar",
+    "population_lakh": 1.82,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Darbhanga",
+    "city_tier": 3,
+    "state": "Bihar",
+    "population_lakh": 2.94,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Davanagere",
+    "city_tier": 3,
+    "state": "Karnataka",
+    "population_lakh": 4.35,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Dehradun",
+    "city_tier": 3,
+    "state": "Uttarakhand",
+    "population_lakh": 5.78,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Dehri",
+    "city_tier": 3,
+    "state": "Bihar",
+    "population_lakh": 1.37,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Deoghar",
+    "city_tier": 3,
+    "state": "Jharkhand",
+    "population_lakh": 2.03,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Dewas",
+    "city_tier": 3,
+    "state": "Madhya Pradesh",
+    "population_lakh": 2.89,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Dhanbad",
+    "city_tier": 2,
+    "state": "Jharkhand",
+    "population_lakh": 11.62,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Dharmavaram",
+    "city_tier": 3,
+    "state": "Andhra Pradesh",
+    "population_lakh": 1.22,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Dhule",
+    "city_tier": 3,
+    "state": "Maharashtra",
+    "population_lakh": 3.76,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Dindigul",
+    "city_tier": 3,
+    "state": "Tamil Nadu",
+    "population_lakh": 2.07,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Durg",
+    "city_tier": 3,
+    "state": "Chhattisgarh",
+    "population_lakh": 2.69,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Durgapur",
+    "city_tier": 3,
+    "state": "West Bengal",
+    "population_lakh": 5.67,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Eluru",
+    "city_tier": 3,
+    "state": "Andhra Pradesh",
+    "population_lakh": 2.84,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Erode",
+    "city_tier": 3,
+    "state": "Tamil Nadu",
+    "population_lakh": 4.98,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Farrukhabad",
+    "city_tier": 3,
+    "state": "Uttar Pradesh",
+    "population_lakh": 2.76,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Fatehpur",
+    "city_tier": 3,
+    "state": "Uttar Pradesh",
+    "population_lakh": 1.93,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Firozabad",
+    "city_tier": 3,
+    "state": "Uttar Pradesh",
+    "population_lakh": 6.04,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Gandhidham",
+    "city_tier": 3,
+    "state": "Gujarat",
+    "population_lakh": 2.49,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Gaya",
+    "city_tier": 3,
+    "state": "Bihar",
+    "population_lakh": 4.63,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Gopalpur",
+    "city_tier": 3,
+    "state": "West Bengal",
+    "population_lakh": 4.05,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Gorakhpur",
+    "city_tier": 3,
+    "state": "Uttar Pradesh",
+    "population_lakh": 6.71,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Gudivada",
+    "city_tier": 3,
+    "state": "Andhra Pradesh",
+    "population_lakh": 1.18,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Gulbarga",
+    "city_tier": 3,
+    "state": "Karnataka",
+    "population_lakh": 5.32,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Guna",
+    "city_tier": 3,
+    "state": "Madhya Pradesh",
+    "population_lakh": 1.81,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Guntakal",
+    "city_tier": 3,
+    "state": "Andhra Pradesh",
+    "population_lakh": 1.26,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Guntur",
+    "city_tier": 3,
+    "state": "Andhra Pradesh",
+    "population_lakh": 7.43,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Gurgaon",
+    "city_tier": 3,
+    "state": "Haryana",
+    "population_lakh": 8.77,
+    "aliases": [
+      "Gurugram",
+      "Millennium City"
+    ],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Guwahati",
+    "city_tier": 3,
+    "state": "Assam",
+    "population_lakh": 9.63,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Gwalior",
+    "city_tier": 2,
+    "state": "Madhya Pradesh",
+    "population_lakh": 10.54,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Haldia",
+    "city_tier": 3,
+    "state": "West Bengal",
+    "population_lakh": 2.01,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Hapur",
+    "city_tier": 3,
+    "state": "Uttar Pradesh",
+    "population_lakh": 2.63,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Haridwar",
+    "city_tier": 3,
+    "state": "Uttarakhand",
+    "population_lakh": 2.29,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Hindupur",
+    "city_tier": 3,
+    "state": "Andhra Pradesh",
+    "population_lakh": 1.52,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Hospet",
+    "city_tier": 3,
+    "state": "Karnataka",
+    "population_lakh": 2.06,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Howrah",
+    "city_tier": 2,
+    "state": "West Bengal",
+    "population_lakh": 10.77,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Hubballi-Dharwad",
+    "city_tier": 3,
+    "state": "Karnataka",
+    "population_lakh": 9.44,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Hugli and Chinsurah",
+    "city_tier": 3,
+    "state": "West Bengal",
+    "population_lakh": 1.77,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Ichalkaranji",
+    "city_tier": 3,
+    "state": "Maharashtra",
+    "population_lakh": 2.88,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Imphal",
+    "city_tier": 3,
+    "state": "Manipur",
+    "population_lakh": 2.65,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Indore",
+    "city_tier": 2,
+    "state": "Madhya Pradesh",
+    "population_lakh": 19.64,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Jabalpur",
+    "city_tier": 2,
+    "state": "Madhya Pradesh",
+    "population_lakh": 10.56,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Jalandhar",
+    "city_tier": 3,
+    "state": "Punjab",
+    "population_lakh": 8.62,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Jalgaon",
+    "city_tier": 3,
+    "state": "Maharashtra",
+    "population_lakh": 4.6,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Jalna",
+    "city_tier": 3,
+    "state": "Maharashtra",
+    "population_lakh": 2.85,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Jamalpur",
+    "city_tier": 3,
+    "state": "Bihar",
+    "population_lakh": 1.05,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Jammu",
+    "city_tier": 3,
+    "state": "Jammu and Kashmir",
+    "population_lakh": 5.04,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Jamnagar",
+    "city_tier": 3,
+    "state": "Gujarat",
+    "population_lakh": 5.29,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Jaunpur",
+    "city_tier": 3,
+    "state": "Uttar Pradesh",
+    "population_lakh": 1.8,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Jehanabad",
+    "city_tier": 3,
+    "state": "Bihar",
+    "population_lakh": 1.02,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Jodhpur",
+    "city_tier": 2,
+    "state": "Rajasthan",
+    "population_lakh": 10.34,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Kadapa",
+    "city_tier": 3,
+    "state": "Andhra Pradesh",
+    "population_lakh": 3.43,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Kakinada",
+    "city_tier": 3,
+    "state": "Andhra Pradesh",
+    "population_lakh": 3.26,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Kalyan-Dombivali",
+    "city_tier": 2,
+    "state": "Maharashtra",
+    "population_lakh": 12.47,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Kamarhati",
+    "city_tier": 3,
+    "state": "West Bengal",
+    "population_lakh": 3.37,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Karaikudi",
+    "city_tier": 3,
+    "state": "Tamil Nadu",
+    "population_lakh": 1.07,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Karawal Nagar",
+    "city_tier": 3,
+    "state": "Delhi",
+    "population_lakh": 2.25,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Karimnagar",
+    "city_tier": 3,
+    "state": "Telangana",
+    "population_lakh": 2.61,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Karnal",
+    "city_tier": 3,
+    "state": "Haryana",
+    "population_lakh": 2.87,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Katihar",
+    "city_tier": 3,
+    "state": "Bihar",
+    "population_lakh": 2.26,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Kavali",
+    "city_tier": 3,
+    "state": "Andhra Pradesh",
+    "population_lakh": 1.04,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Khammam",
+    "city_tier": 3,
+    "state": "Telangana",
+    "population_lakh": 3.05,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Khandwa",
+    "city_tier": 3,
+    "state": "Madhya Pradesh",
+    "population_lakh": 2.01,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Kharagpur",
+    "city_tier": 3,
+    "state": "West Bengal",
+    "population_lakh": 2.08,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Khora",
+    "city_tier": 3,
+    "state": "Uttar Pradesh",
+    "population_lakh": 1.9,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Kirari Suleman Nagar",
+    "city_tier": 3,
+    "state": "Delhi",
+    "population_lakh": 2.83,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Kishanganj",
+    "city_tier": 3,
+    "state": "Bihar",
+    "population_lakh": 1.07,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Kolhapur",
+    "city_tier": 3,
+    "state": "Maharashtra",
+    "population_lakh": 5.49,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Kollam",
+    "city_tier": 3,
+    "state": "Kerala",
+    "population_lakh": 3.49,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Korba",
+    "city_tier": 3,
+    "state": "Chhattisgarh",
+    "population_lakh": 3.63,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Kota",
+    "city_tier": 2,
+    "state": "Rajasthan",
+    "population_lakh": 10.02,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Kottayam",
+    "city_tier": 3,
+    "state": "Kerala",
+    "population_lakh": 1.73,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Kozhikode",
+    "city_tier": 3,
+    "state": "Kerala",
+    "population_lakh": 4.32,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Kulti",
+    "city_tier": 3,
+    "state": "West Bengal",
+    "population_lakh": 3.14,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Kurnool",
+    "city_tier": 3,
+    "state": "Andhra Pradesh",
+    "population_lakh": 4.3,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Latur",
+    "city_tier": 3,
+    "state": "Maharashtra",
+    "population_lakh": 3.83,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Loni",
+    "city_tier": 3,
+    "state": "Uttar Pradesh",
+    "population_lakh": 5.12,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Ludhiana",
+    "city_tier": 2,
+    "state": "Punjab",
+    "population_lakh": 16.19,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Machilipatnam",
+    "city_tier": 3,
+    "state": "Andhra Pradesh",
+    "population_lakh": 1.7,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Madanapalle",
+    "city_tier": 3,
+    "state": "Andhra Pradesh",
+    "population_lakh": 1.36,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Madhyamgram",
+    "city_tier": 3,
+    "state": "West Bengal",
+    "population_lakh": 1.96,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Mahesana",
+    "city_tier": 3,
+    "state": "Gujarat",
+    "population_lakh": 1.85,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Maheshtala",
+    "city_tier": 3,
+    "state": "West Bengal",
+    "population_lakh": 4.49,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Malda",
+    "city_tier": 3,
+    "state": "West Bengal",
+    "population_lakh": 2.06,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Malegaon",
+    "city_tier": 3,
+    "state": "Maharashtra",
+    "population_lakh": 4.71,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Mangalore",
+    "city_tier": 3,
+    "state": "Karnataka",
+    "population_lakh": 4.99,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Mango",
+    "city_tier": 3,
+    "state": "Jharkhand",
+    "population_lakh": 2.24,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Mau",
+    "city_tier": 3,
+    "state": "Uttar Pradesh",
+    "population_lakh": 2.79,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Mira-Bhayandar",
+    "city_tier": 3,
+    "state": "Maharashtra",
+    "population_lakh": 8.15,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Miryalaguda",
+    "city_tier": 3,
+    "state": "Telangana",
+    "population_lakh": 1.1,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Mirzapur",
+    "city_tier": 3,
+    "state": "Uttar Pradesh",
+    "population_lakh": 2.34,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Moradabad",
+    "city_tier": 3,
+    "state": "Uttar Pradesh",
+    "population_lakh": 8.9,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Morena",
+    "city_tier": 3,
+    "state": "Madhya Pradesh",
+    "population_lakh": 2.0,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Morvi",
+    "city_tier": 3,
+    "state": "Gujarat",
+    "population_lakh": 1.95,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Motihari",
+    "city_tier": 3,
+    "state": "Bihar",
+    "population_lakh": 1.25,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Munger",
+    "city_tier": 3,
+    "state": "Bihar",
+    "population_lakh": 2.13,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Murwara",
+    "city_tier": 3,
+    "state": "Uttar Pradesh",
+    "population_lakh": 2.22,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Muzaffarnagar",
+    "city_tier": 3,
+    "state": "Uttar Pradesh",
+    "population_lakh": 3.92,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Muzaffarpur",
+    "city_tier": 3,
+    "state": "Bihar",
+    "population_lakh": 3.52,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Nadiad",
+    "city_tier": 3,
+    "state": "Gujarat",
+    "population_lakh": 2.18,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Nagarcoil",
+    "city_tier": 3,
+    "state": "Tamil Nadu",
+    "population_lakh": 2.25,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Naihati",
+    "city_tier": 3,
+    "state": "West Bengal",
+    "population_lakh": 2.18,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Nanded",
+    "city_tier": 3,
+    "state": "Maharashtra",
+    "population_lakh": 5.51,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Nandyal",
+    "city_tier": 3,
+    "state": "Andhra Pradesh",
+    "population_lakh": 2.01,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Nangloi Jat",
+    "city_tier": 3,
+    "state": "Delhi",
+    "population_lakh": 2.06,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Narasaraopet",
+    "city_tier": 3,
+    "state": "Andhra Pradesh",
+    "population_lakh": 1.16,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Navi Mumbai",
+    "city_tier": 2,
+    "state": "Maharashtra",
+    "population_lakh": 11.21,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Navi Mumbai Panvel Raigad",
+    "city_tier": 3,
+    "state": "Maharashtra",
+    "population_lakh": 1.95,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Nellore",
+    "city_tier": 3,
+    "state": "Andhra Pradesh",
+    "population_lakh": 6.01,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "New Delhi",
+    "city_tier": 3,
+    "state": "Delhi",
+    "population_lakh": 2.5,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Nizamabad",
+    "city_tier": 3,
+    "state": "Telangana",
+    "population_lakh": 3.1,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Noida",
+    "city_tier": 3,
+    "state": "Uttar Pradesh",
+    "population_lakh": 6.42,
+    "aliases": [
+      "Greater Noida"
+    ],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "North Dumdum",
+    "city_tier": 3,
+    "state": "West Bengal",
+    "population_lakh": 2.54,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Ongole",
+    "city_tier": 3,
+    "state": "Andhra Pradesh",
+    "population_lakh": 2.05,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Orai",
+    "city_tier": 3,
+    "state": "Uttar Pradesh",
+    "population_lakh": 1.87,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Ozhukarai",
+    "city_tier": 3,
+    "state": "Puducherry",
+    "population_lakh": 3.0,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Pali",
+    "city_tier": 3,
+    "state": "Rajasthan",
+    "population_lakh": 2.3,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Pallavaram",
+    "city_tier": 3,
+    "state": "Tamil Nadu",
+    "population_lakh": 2.15,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Panchkula",
+    "city_tier": 3,
+    "state": "Haryana",
+    "population_lakh": 2.11,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Panihati",
+    "city_tier": 3,
+    "state": "West Bengal",
+    "population_lakh": 3.84,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Panipat",
+    "city_tier": 3,
+    "state": "Haryana",
+    "population_lakh": 2.94,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Panvel",
+    "city_tier": 3,
+    "state": "Maharashtra",
+    "population_lakh": 1.8,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Parbhani",
+    "city_tier": 3,
+    "state": "Maharashtra",
+    "population_lakh": 3.07,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Patiala",
+    "city_tier": 3,
+    "state": "Punjab",
+    "population_lakh": 4.05,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Pimpri-Chinchwad",
+    "city_tier": 2,
+    "state": "Maharashtra",
+    "population_lakh": 17.28,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Proddatur",
+    "city_tier": 3,
+    "state": "Andhra Pradesh",
+    "population_lakh": 1.63,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Puducherry",
+    "city_tier": 3,
+    "state": "Puducherry",
+    "population_lakh": 2.42,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Purnia",
+    "city_tier": 3,
+    "state": "Bihar",
+    "population_lakh": 2.81,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Rae Bareli",
+    "city_tier": 3,
+    "state": "Uttar Pradesh",
+    "population_lakh": 1.91,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Raichur",
+    "city_tier": 3,
+    "state": "Karnataka",
+    "population_lakh": 2.32,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Raiganj",
+    "city_tier": 3,
+    "state": "West Bengal",
+    "population_lakh": 1.84,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Rajahmundry",
+    "city_tier": 3,
+    "state": "Andhra Pradesh",
+    "population_lakh": 4.2,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Rajkot",
+    "city_tier": 2,
+    "state": "Gujarat",
+    "population_lakh": 12.87,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Rajpur Sonarpur",
+    "city_tier": 3,
+    "state": "West Bengal",
+    "population_lakh": 4.24,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Ramagundam",
+    "city_tier": 3,
+    "state": "Telangana",
+    "population_lakh": 2.3,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Rampur",
+    "city_tier": 3,
+    "state": "Uttar Pradesh",
+    "population_lakh": 3.25,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Ranchi",
+    "city_tier": 2,
+    "state": "Jharkhand",
+    "population_lakh": 10.73,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Ratlam",
+    "city_tier": 3,
+    "state": "Madhya Pradesh",
+    "population_lakh": 2.65,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Raurkela Industrial Township",
+    "city_tier": 3,
+    "state": "Odisha",
+    "population_lakh": 2.1,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Rewa",
+    "city_tier": 3,
+    "state": "Madhya Pradesh",
+    "population_lakh": 2.35,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Rourkela",
+    "city_tier": 3,
+    "state": "Odisha",
+    "population_lakh": 5.53,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Rourkela",
+    "city_tier": 3,
+    "state": "Odisha",
+    "population_lakh": 5.53,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Sagar",
+    "city_tier": 3,
+    "state": "Madhya Pradesh",
+    "population_lakh": 2.73,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Saharanpur",
+    "city_tier": 3,
+    "state": "Uttar Pradesh",
+    "population_lakh": 7.03,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Saharsa",
+    "city_tier": 3,
+    "state": "Bihar",
+    "population_lakh": 1.55,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Sambalpur",
+    "city_tier": 3,
+    "state": "Odisha",
+    "population_lakh": 3.36,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Sambalpur",
+    "city_tier": 3,
+    "state": "Orissa",
+    "population_lakh": 3.36,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Sambhal",
+    "city_tier": 3,
+    "state": "Uttar Pradesh",
+    "population_lakh": 2.21,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Sangli-Miraj & Kupwad",
+    "city_tier": 3,
+    "state": "Maharashtra",
+    "population_lakh": 5.03,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Sasaram",
+    "city_tier": 3,
+    "state": "Bihar",
+    "population_lakh": 1.47,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Satara",
+    "city_tier": 3,
+    "state": "Maharashtra",
+    "population_lakh": 3.27,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Satna",
+    "city_tier": 3,
+    "state": "Madhya Pradesh",
+    "population_lakh": 2.8,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Secunderabad",
+    "city_tier": 3,
+    "state": "Telangana",
+    "population_lakh": 2.18,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Serampore",
+    "city_tier": 3,
+    "state": "West Bengal",
+    "population_lakh": 1.82,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Shahjahanpur",
+    "city_tier": 3,
+    "state": "Uttar Pradesh",
+    "population_lakh": 3.28,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Shimla",
+    "city_tier": 3,
+    "state": "Himachal Pradesh",
+    "population_lakh": 1.7,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Shivamogga",
+    "city_tier": 3,
+    "state": "Karnataka",
+    "population_lakh": 3.22,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Shivpuri",
+    "city_tier": 3,
+    "state": "Madhya Pradesh",
+    "population_lakh": 1.8,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Sikar",
+    "city_tier": 3,
+    "state": "Rajasthan",
+    "population_lakh": 2.38,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Siliguri",
+    "city_tier": 3,
+    "state": "West Bengal",
+    "population_lakh": 5.1,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Singrauli",
+    "city_tier": 3,
+    "state": "Madhya Pradesh",
+    "population_lakh": 2.2,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Sirsa",
+    "city_tier": 3,
+    "state": "Haryana",
+    "population_lakh": 1.83,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Siwan",
+    "city_tier": 3,
+    "state": "Bihar",
+    "population_lakh": 1.34,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Solapur",
+    "city_tier": 3,
+    "state": "Maharashtra",
+    "population_lakh": 9.51,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Sonipat",
+    "city_tier": 3,
+    "state": "Haryana",
+    "population_lakh": 2.77,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "South Dumdum",
+    "city_tier": 3,
+    "state": "West Bengal",
+    "population_lakh": 4.11,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Sri Ganganagar",
+    "city_tier": 3,
+    "state": "Rajasthan",
+    "population_lakh": 2.25,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Srikakulam",
+    "city_tier": 3,
+    "state": "Andhra Pradesh",
+    "population_lakh": 1.26,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Sultan Pur Majra",
+    "city_tier": 3,
+    "state": "Delhi",
+    "population_lakh": 1.82,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Surendranagar Dudhrej",
+    "city_tier": 3,
+    "state": "Gujarat",
+    "population_lakh": 1.78,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Suryapet",
+    "city_tier": 3,
+    "state": "Telangana",
+    "population_lakh": 1.05,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Tadepalligudem",
+    "city_tier": 3,
+    "state": "Andhra Pradesh",
+    "population_lakh": 1.04,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Tadipatri",
+    "city_tier": 3,
+    "state": "Andhra Pradesh",
+    "population_lakh": 1.08,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Tenali",
+    "city_tier": 3,
+    "state": "Andhra Pradesh",
+    "population_lakh": 1.65,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Thane",
+    "city_tier": 2,
+    "state": "Maharashtra",
+    "population_lakh": 18.41,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Thanjavur",
+    "city_tier": 3,
+    "state": "Tamil Nadu",
+    "population_lakh": 2.23,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Thiruvananthapuram",
+    "city_tier": 3,
+    "state": "Kerala",
+    "population_lakh": 9.58,
+    "aliases": [
+      "Trivandrum"
+    ],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Thoothukudi",
+    "city_tier": 3,
+    "state": "Tamil Nadu",
+    "population_lakh": 2.37,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Thrissur",
+    "city_tier": 3,
+    "state": "Kerala",
+    "population_lakh": 3.16,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Tiruchirappalli",
+    "city_tier": 3,
+    "state": "Tamil Nadu",
+    "population_lakh": 9.17,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Tirunelveli",
+    "city_tier": 3,
+    "state": "Tamil Nadu",
+    "population_lakh": 4.74,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Tirupati",
+    "city_tier": 3,
+    "state": "Andhra Pradesh",
+    "population_lakh": 3.74,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Tiruppur",
+    "city_tier": 3,
+    "state": "Tamil Nadu",
+    "population_lakh": 8.98,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Tiruvottiyur",
+    "city_tier": 3,
+    "state": "Tamil Nadu",
+    "population_lakh": 2.48,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Tumkur",
+    "city_tier": 3,
+    "state": "Karnataka",
+    "population_lakh": 3.06,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Ujjain",
+    "city_tier": 3,
+    "state": "Madhya Pradesh",
+    "population_lakh": 5.15,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Ulhasnagar",
+    "city_tier": 3,
+    "state": "Maharashtra",
+    "population_lakh": 5.07,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Uluberia",
+    "city_tier": 3,
+    "state": "West Bengal",
+    "population_lakh": 2.22,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Unnao",
+    "city_tier": 3,
+    "state": "Uttar Pradesh",
+    "population_lakh": 1.78,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Vadodara",
+    "city_tier": 2,
+    "state": "Gujarat",
+    "population_lakh": 16.71,
+    "aliases": [
+      "Baroda"
+    ],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Varanasi",
+    "city_tier": 2,
+    "state": "Uttar Pradesh",
+    "population_lakh": 11.98,
+    "aliases": [
+      "Banaras",
+      "Kashi"
+    ],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Vasai-Virar",
+    "city_tier": 2,
+    "state": "Maharashtra",
+    "population_lakh": 12.22,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Vellore",
+    "city_tier": 3,
+    "state": "Tamil Nadu",
+    "population_lakh": 1.86,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Vijayanagaram",
+    "city_tier": 3,
+    "state": "Andhra Pradesh",
+    "population_lakh": 2.28,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Warangal",
+    "city_tier": 3,
+    "state": "Telangana",
+    "population_lakh": 8.12,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  },
+  {
+    "city": "Yamunanagar",
+    "city_tier": 3,
+    "state": "Haryana",
+    "population_lakh": 2.17,
+    "aliases": [],
+    "source": "Cities-List.xlsx"
+  }
+]

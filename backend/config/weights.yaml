@@ -1,0 +1,28 @@
+# config/weights.yaml
+date: "2026-07-15"
+version: "1.0.0"
+
+# Main recommendation scoring weights (must sum to 1.0)
+scoring:
+  need: 0.35
+  budget: 0.25
+  retention: 0.15
+  popularity: 0.15
+  nps: 0.10
+
+# Add-on ranking weights (must sum to 1.0)
+addon:
+  unmet_need: 0.40
+  normalised_lift: 0.30
+  retention_delta: 0.15
+  budget_headroom: 0.15
+
+# Training label weights for cohort stats
+label_weights:
+  activated_retained: 1.0
+  activated_churned: 0.7
+  accepted_not_activated: 0.5
+
+# MMR diversity parameter
+mmr_lambda: 0.7
+

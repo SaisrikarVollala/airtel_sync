@@ -1,0 +1,5 @@
+# config/tax.yaml
+tax_rate: 0.18
+catalogue_prices_inclusive: false
+description: "GST 18% standard Indian telecom & B2B digital services tax rate"
+

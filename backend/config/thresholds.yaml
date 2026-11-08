@@ -1,0 +1,29 @@
+# config/thresholds.yaml
+min_cohort: 30
+min_sample: 20
+shrinkage_k: 5
+expected_need_threshold: 0.6
+core_threshold: 0.5
+max_candidates: 40
+qty_corr_threshold: 0.5
+
+# Budget fit penalties
+over_penalty: 1.0
+under_penalty: 0.5
+budget_tolerance: 0.10
+
+# Diversity & MMR
+max_overlap: 0.8
+
+# Add-ons
+addon_min_lift: 1.2
+addon_max_shown: 5
+
+# Pricing
+price_rounding: 1
+default_t: 0.5
+
+# Evaluation & Slice analysis
+slice_alert_gap: 0.10
+complexity_free_products: 4
+

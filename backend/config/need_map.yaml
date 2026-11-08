@@ -1,0 +1,85 @@
+# config/need_map.yaml
+# Maps customer need tokens (Hindi/Hinglish/English) to product IDs or catalogue categories
+
+keyword_to_category:
+  internet: "Connectivity"
+  broadband: "Connectivity"
+  fibre: "Connectivity"
+  fiber: "Connectivity"
+  wifi: "Connectivity"
+  "wi-fi": "Connectivity"
+  net: "Connectivity"
+  leased line: "Connectivity"
+  speed: "Connectivity"
+  postpaid: "Connectivity"
+  sim: "Connectivity"
+  calling: "Communication"
+  telephony: "Communication"
+  sip: "Communication"
+  ivr: "Communication"
+  toll-free: "Communication"
+  toll free: "Communication"
+  sms: "Communication"
+  whatsapp: "Communication"
+  email: "Cloud & Productivity"
+  office: "Cloud & Productivity"
+  backup: "Cloud & Productivity"
+  website: "Cloud & Productivity"
+  domain: "Cloud & Productivity"
+  pos: "Cloud & Productivity"
+  billing: "Cloud & Productivity"
+  security: "Security"
+  antivirus: "Security"
+  firewall: "Security"
+  cctv: "Security"
+  camera: "Security"
+  surveillance: "Security"
+  iot: "IoT & Physical"
+  sensors: "IoT & Physical"
+  fleet: "IoT & Physical"
+  gps: "IoT & Physical"
+  tracker: "IoT & Physical"
+
+keyword_to_products:
+  cctv: ["P22"]
+  camera: ["P22"]
+  surveillance: ["P22"]
+  whatsapp: ["P15"]
+  wa: ["P15"]
+  pos: ["P19"]
+  billing: ["P19"]
+  counter: ["P19"]
+  email: ["P16"]
+  mail: ["P16"]
+  office: ["P16"]
+  website: ["P18"]
+  domain: ["P18"]
+  tollfree: ["P13"]
+  "toll-free": ["P13"]
+  "toll free": ["P13"]
+  "1800": ["P13"]
+  sms: ["P14"]
+  telephony: ["P12"]
+  sip: ["P12"]
+  ivr: ["P12"]
+  "leased line": ["P05", "P06"]
+  ill: ["P05", "P06"]
+  "static ip": ["P11"]
+  "failover": ["P09"]
+  "backup internet": ["P09"]
+  "sd-wan": ["P10"]
+  sdwan: ["P10"]
+  firewall: ["P21"]
+  "endpoint security": ["P20"]
+  antivirus: ["P20"]
+  "fleet tracker": ["P25"]
+  gps: ["P25"]
+  fleet: ["P25"]
+  "machine monitoring": ["P24"]
+  iot: ["P24"]
+  "secure wifi": ["P23"]
+  "guest wifi": ["P23"]
+  "cloud backup": ["P17"]
+  postpaid: ["P07", "P08"]
+  sim: ["P07", "P08"]
+

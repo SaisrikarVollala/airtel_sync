@@ -1,0 +1,2756 @@
+[
+  {
+    "bundle_code": "P01x1;P07x1",
+    "total_sold": 11,
+    "avg_monthly_value": 1425.45,
+    "avg_setup_fee": 0.0,
+    "avg_nps": 7.0,
+    "churn_rate": 0.091,
+    "top_segment": "Micro retail & services"
+  },
+  {
+    "bundle_code": "P01x1;P07x2",
+    "total_sold": 10,
+    "avg_monthly_value": 1794.0,
+    "avg_setup_fee": 0.0,
+    "avg_nps": 6.7,
+    "churn_rate": 0.3,
+    "top_segment": "Micro retail & services"
+  },
+  {
+    "bundle_code": "P01x1;P07x2;P19x1",
+    "total_sold": 6,
+    "avg_monthly_value": 2603.33,
+    "avg_setup_fee": 2500.0,
+    "avg_nps": 7.83,
+    "churn_rate": 0.0,
+    "top_segment": "Micro retail & services"
+  },
+  {
+    "bundle_code": "P01x1;P07x2;P23x2",
+    "total_sold": 5,
+    "avg_monthly_value": 2278.0,
+    "avg_setup_fee": 3600.0,
+    "avg_nps": 6.6,
+    "churn_rate": 0.2,
+    "top_segment": "Micro retail & services"
+  },
+  {
+    "bundle_code": "P01x1;P07x2;P22x1",
+    "total_sold": 4,
+    "avg_monthly_value": 2287.5,
+    "avg_setup_fee": 1000.0,
+    "avg_nps": 6.75,
+    "churn_rate": 0.0,
+    "top_segment": "Micro retail & services"
+  },
+  {
+    "bundle_code": "P01x1;P07x2;P19x1;P22x1",
+    "total_sold": 4,
+    "avg_monthly_value": 3000.0,
+    "avg_setup_fee": 3500.0,
+    "avg_nps": 7.25,
+    "churn_rate": 0.0,
+    "top_segment": "Micro retail & services"
+  },
+  {
+    "bundle_code": "P01x1;P07x1;P19x1",
+    "total_sold": 4,
+    "avg_monthly_value": 2185.0,
+    "avg_setup_fee": 2500.0,
+    "avg_nps": 6.75,
+    "churn_rate": 0.5,
+    "top_segment": "Micro retail & services"
+  },
+  {
+    "bundle_code": "P01x1;P07x1;P22x1",
+    "total_sold": 4,
+    "avg_monthly_value": 1880.0,
+    "avg_setup_fee": 1000.0,
+    "avg_nps": 7.25,
+    "churn_rate": 0.5,
+    "top_segment": "Micro retail & services"
+  },
+  {
+    "bundle_code": "P01x1;P07x2;P23x1;P15x1",
+    "total_sold": 3,
+    "avg_monthly_value": 3300.0,
+    "avg_setup_fee": 1800.0,
+    "avg_nps": 7.67,
+    "churn_rate": 0.333,
+    "top_segment": "Micro retail & services"
+  },
+  {
+    "bundle_code": "P01x1;P07x1;P18x1",
+    "total_sold": 3,
+    "avg_monthly_value": 1803.33,
+    "avg_setup_fee": 0.0,
+    "avg_nps": 7.33,
+    "churn_rate": 0.333,
+    "top_segment": "Micro retail & services"
+  },
+  {
+    "bundle_code": "P01x1;P07x2;P22x1;P23x2",
+    "total_sold": 3,
+    "avg_monthly_value": 2810.0,
+    "avg_setup_fee": 4600.0,
+    "avg_nps": 8.0,
+    "churn_rate": 0.333,
+    "top_segment": "Micro retail & services"
+  },
+  {
+    "bundle_code": "P01x1;P07x1;P19x1;P23x1",
+    "total_sold": 3,
+    "avg_monthly_value": 2493.33,
+    "avg_setup_fee": 4300.0,
+    "avg_nps": 7.0,
+    "churn_rate": 0.0,
+    "top_segment": "Micro retail & services"
+  },
+  {
+    "bundle_code": "P01x1;P07x1;P19x1;P22x1",
+    "total_sold": 3,
+    "avg_monthly_value": 2706.67,
+    "avg_setup_fee": 3500.0,
+    "avg_nps": 7.33,
+    "churn_rate": 0.333,
+    "top_segment": "Micro retail & services"
+  },
+  {
+    "bundle_code": "P01x1;P07x1;P15x1",
+    "total_sold": 3,
+    "avg_monthly_value": 2836.67,
+    "avg_setup_fee": 0.0,
+    "avg_nps": 8.0,
+    "churn_rate": 0.0,
+    "top_segment": "Micro retail & services"
+  },
+  {
+    "bundle_code": "P01x1;P07x2;P15x1",
+    "total_sold": 2,
+    "avg_monthly_value": 3115.0,
+    "avg_setup_fee": 0.0,
+    "avg_nps": 6.0,
+    "churn_rate": 0.5,
+    "top_segment": "Micro retail & services"
+  },
+  {
+    "bundle_code": "P03x1;P08x2;P16x13",
+    "total_sold": 2,
+    "avg_monthly_value": 7625.0,
+    "avg_setup_fee": 0.0,
+    "avg_nps": 6.0,
+    "churn_rate": 0.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P01x1;P07x1;P23x1",
+    "total_sold": 2,
+    "avg_monthly_value": 1635.0,
+    "avg_setup_fee": 1800.0,
+    "avg_nps": 7.0,
+    "churn_rate": 0.0,
+    "top_segment": "Micro retail & services"
+  },
+  {
+    "bundle_code": "P01x1;P07x2;P19x1;P23x1",
+    "total_sold": 2,
+    "avg_monthly_value": 2740.0,
+    "avg_setup_fee": 4300.0,
+    "avg_nps": 6.0,
+    "churn_rate": 0.0,
+    "top_segment": "Micro retail & services"
+  },
+  {
+    "bundle_code": "P05x1;P08x4;P16x15",
+    "total_sold": 2,
+    "avg_monthly_value": 12985.0,
+    "avg_setup_fee": 10000.0,
+    "avg_nps": 8.0,
+    "churn_rate": 0.5,
+    "top_segment": "Small manufacturers"
+  },
+  {
+    "bundle_code": "P01x1;P07x1;P23x2;P15x1",
+    "total_sold": 2,
+    "avg_monthly_value": 3120.0,
+    "avg_setup_fee": 3600.0,
+    "avg_nps": 8.0,
+    "churn_rate": 0.5,
+    "top_segment": "Micro retail & services"
+  },
+  {
+    "bundle_code": "P04x1;P07x1",
+    "total_sold": 2,
+    "avg_monthly_value": 1355.0,
+    "avg_setup_fee": 0.0,
+    "avg_nps": 5.5,
+    "churn_rate": 1.0,
+    "top_segment": "Micro retail & services"
+  },
+  {
+    "bundle_code": "P01x1;P07x2;P19x1;P22x1;P15x1",
+    "total_sold": 2,
+    "avg_monthly_value": 4220.0,
+    "avg_setup_fee": 3500.0,
+    "avg_nps": 5.5,
+    "churn_rate": 0.5,
+    "top_segment": "Micro retail & services"
+  },
+  {
+    "bundle_code": "P01x1;P07x2;P22x1;P15x1",
+    "total_sold": 2,
+    "avg_monthly_value": 3580.0,
+    "avg_setup_fee": 1000.0,
+    "avg_nps": 9.0,
+    "churn_rate": 0.0,
+    "top_segment": "Micro retail & services"
+  },
+  {
+    "bundle_code": "P01x1;P07x1;P22x1;P18x1",
+    "total_sold": 2,
+    "avg_monthly_value": 2440.0,
+    "avg_setup_fee": 1000.0,
+    "avg_nps": 7.5,
+    "churn_rate": 0.5,
+    "top_segment": "Micro retail & services"
+  },
+  {
+    "bundle_code": "P01x11;P09x11;P08x4;P23x22;P15x1",
+    "total_sold": 1,
+    "avg_monthly_value": 28080.0,
+    "avg_setup_fee": 56100.0,
+    "avg_nps": 9.0,
+    "churn_rate": 0.0,
+    "top_segment": "Small multi-site businesses"
+  },
+  {
+    "bundle_code": "P02x11;P09x11;P08x5;P19x11;P10x11;P13x1;P15x1;P22x11",
+    "total_sold": 1,
+    "avg_monthly_value": 72140.0,
+    "avg_setup_fee": 111000.0,
+    "avg_nps": 4.0,
+    "churn_rate": 1.0,
+    "top_segment": "Small multi-site businesses"
+  },
+  {
+    "bundle_code": "P01x8;P09x8;P08x3;P23x8;P13x1",
+    "total_sold": 1,
+    "avg_monthly_value": 19090.0,
+    "avg_setup_fee": 27400.0,
+    "avg_nps": 9.0,
+    "churn_rate": 0.0,
+    "top_segment": "Small multi-site businesses"
+  },
+  {
+    "bundle_code": "P02x1;P08x1;P16x10;P09x1",
+    "total_sold": 1,
+    "avg_monthly_value": 4150.0,
+    "avg_setup_fee": 1500.0,
+    "avg_nps": 8.0,
+    "churn_rate": 0.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P03x1;P07x4;P16x3;P20x3;P17x1;P12x3;P11x1;P09x1;P14x1",
+    "total_sold": 1,
+    "avg_monthly_value": 13190.0,
+    "avg_setup_fee": 7500.0,
+    "avg_nps": 5.0,
+    "churn_rate": 0.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P02x6;P08x6;P10x6;P23x12;P15x1",
+    "total_sold": 1,
+    "avg_monthly_value": 39580.0,
+    "avg_setup_fee": 51600.0,
+    "avg_nps": 5.0,
+    "churn_rate": 0.0,
+    "top_segment": "Small multi-site businesses"
+  },
+  {
+    "bundle_code": "P03x1;P07x2;P16x3;P17x1;P12x4;P09x1",
+    "total_sold": 1,
+    "avg_monthly_value": 11560.0,
+    "avg_setup_fee": 9500.0,
+    "avg_nps": 3.0,
+    "churn_rate": 0.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P02x1;P07x1;P16x4;P20x5;P12x2;P09x1;P14x1",
+    "total_sold": 1,
+    "avg_monthly_value": 7980.0,
+    "avg_setup_fee": 5500.0,
+    "avg_nps": 8.0,
+    "churn_rate": 0.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P02x6;P09x6;P08x4;P19x6;P10x6;P23x12",
+    "total_sold": 1,
+    "avg_monthly_value": 44320.0,
+    "avg_setup_fee": 75600.0,
+    "avg_nps": 7.0,
+    "churn_rate": 0.0,
+    "top_segment": "Small multi-site businesses"
+  },
+  {
+    "bundle_code": "P01x1;P07x2;P22x1;P23x1",
+    "total_sold": 1,
+    "avg_monthly_value": 2440.0,
+    "avg_setup_fee": 2800.0,
+    "avg_nps": 7.0,
+    "churn_rate": 0.0,
+    "top_segment": "Micro retail & services"
+  },
+  {
+    "bundle_code": "P01x12;P09x12;P08x2;P19x12;P23x24;P22x12",
+    "total_sold": 1,
+    "avg_monthly_value": 41800.0,
+    "avg_setup_fee": 103200.0,
+    "avg_nps": 10.0,
+    "churn_rate": 0.0,
+    "top_segment": "Small multi-site businesses"
+  },
+  {
+    "bundle_code": "P02x1;P08x3;P16x10;P17x1",
+    "total_sold": 1,
+    "avg_monthly_value": 5800.0,
+    "avg_setup_fee": 0.0,
+    "avg_nps": 2.0,
+    "churn_rate": 0.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P03x1;P08x3;P16x14;P17x1;P12x2;P11x1;P14x1",
+    "total_sold": 1,
+    "avg_monthly_value": 13410.0,
+    "avg_setup_fee": 4000.0,
+    "avg_nps": 6.0,
+    "churn_rate": 0.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P03x1;P08x1;P16x11;P20x6",
+    "total_sold": 1,
+    "avg_monthly_value": 7350.0,
+    "avg_setup_fee": 0.0,
+    "avg_nps": 8.0,
+    "churn_rate": 0.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P01x11;P09x11;P08x6;P10x11;P23x22;P13x1;P22x11",
+    "total_sold": 1,
+    "avg_monthly_value": 68180.0,
+    "avg_setup_fee": 123100.0,
+    "avg_nps": 6.0,
+    "churn_rate": 0.0,
+    "top_segment": "Small multi-site businesses"
+  },
+  {
+    "bundle_code": "P02x1;P07x1;P16x3",
+    "total_sold": 1,
+    "avg_monthly_value": 2380.0,
+    "avg_setup_fee": 0.0,
+    "avg_nps": 9.0,
+    "churn_rate": 0.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P03x1;P08x1;P16x5;P17x1",
+    "total_sold": 1,
+    "avg_monthly_value": 5970.0,
+    "avg_setup_fee": 0.0,
+    "avg_nps": 8.0,
+    "churn_rate": 0.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P02x1;P07x3;P16x14;P17x1",
+    "total_sold": 1,
+    "avg_monthly_value": 5320.0,
+    "avg_setup_fee": 0.0,
+    "avg_nps": 8.0,
+    "churn_rate": 0.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P03x1;P07x1;P16x5;P20x7;P17x1",
+    "total_sold": 1,
+    "avg_monthly_value": 6670.0,
+    "avg_setup_fee": 0.0,
+    "avg_nps": 8.0,
+    "churn_rate": 0.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P02x1;P08x3;P16x4;P12x2;P09x1",
+    "total_sold": 1,
+    "avg_monthly_value": 7440.0,
+    "avg_setup_fee": 5500.0,
+    "avg_nps": 9.0,
+    "churn_rate": 0.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P02x1;P08x3;P16x3;P20x3",
+    "total_sold": 1,
+    "avg_monthly_value": 4540.0,
+    "avg_setup_fee": 0.0,
+    "avg_nps": 6.0,
+    "churn_rate": 0.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P02x7;P09x7;P08x4;P19x7;P23x14",
+    "total_sold": 1,
+    "avg_monthly_value": 26190.0,
+    "avg_setup_fee": 53200.0,
+    "avg_nps": 7.0,
+    "churn_rate": 0.0,
+    "top_segment": "Small multi-site businesses"
+  },
+  {
+    "bundle_code": "P03x1;P07x1;P16x12;P20x8;P11x1",
+    "total_sold": 1,
+    "avg_monthly_value": 7250.0,
+    "avg_setup_fee": 0.0,
+    "avg_nps": 6.0,
+    "churn_rate": 0.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P01x1;P08x3;P16x12;P20x3;P17x1;P11x1;P14x1",
+    "total_sold": 1,
+    "avg_monthly_value": 7470.0,
+    "avg_setup_fee": 0.0,
+    "avg_nps": 6.0,
+    "churn_rate": 1.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P02x3;P08x6;P15x1",
+    "total_sold": 1,
+    "avg_monthly_value": 10600.0,
+    "avg_setup_fee": 0.0,
+    "avg_nps": 2.0,
+    "churn_rate": 0.0,
+    "top_segment": "Small multi-site businesses"
+  },
+  {
+    "bundle_code": "P03x1;P08x3;P16x12;P20x6;P17x1",
+    "total_sold": 1,
+    "avg_monthly_value": 8750.0,
+    "avg_setup_fee": 0.0,
+    "avg_nps": 6.0,
+    "churn_rate": 0.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P02x1;P07x3;P16x10;P20x9;P17x1",
+    "total_sold": 1,
+    "avg_monthly_value": 5730.0,
+    "avg_setup_fee": 0.0,
+    "avg_nps": 7.0,
+    "churn_rate": 0.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P02x1;P07x4;P16x4;P20x6;P17x1",
+    "total_sold": 1,
+    "avg_monthly_value": 5120.0,
+    "avg_setup_fee": 0.0,
+    "avg_nps": 7.0,
+    "churn_rate": 0.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P02x6;P09x6;P08x4;P19x6;P10x6",
+    "total_sold": 1,
+    "avg_monthly_value": 36480.0,
+    "avg_setup_fee": 54000.0,
+    "avg_nps": 6.0,
+    "churn_rate": 1.0,
+    "top_segment": "Small multi-site businesses"
+  },
+  {
+    "bundle_code": "P02x5;P08x6;P19x5;P23x5;P13x1;P15x1;P22x5",
+    "total_sold": 1,
+    "avg_monthly_value": 23620.0,
+    "avg_setup_fee": 27500.0,
+    "avg_nps": 7.0,
+    "churn_rate": 1.0,
+    "top_segment": "Small multi-site businesses"
+  },
+  {
+    "bundle_code": "P01x1;P07x1;P16x8;P11x1",
+    "total_sold": 1,
+    "avg_monthly_value": 2790.0,
+    "avg_setup_fee": 0.0,
+    "avg_nps": 5.0,
+    "churn_rate": 0.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P03x1;P08x5;P16x5;P21x1;P24x8;P23x5;P20x10;P11x1",
+    "total_sold": 1,
+    "avg_monthly_value": 15910.0,
+    "avg_setup_fee": 37000.0,
+    "avg_nps": 8.0,
+    "churn_rate": 0.0,
+    "top_segment": "Small manufacturers"
+  },
+  {
+    "bundle_code": "P02x1;P07x4;P16x9;P17x1",
+    "total_sold": 1,
+    "avg_monthly_value": 4730.0,
+    "avg_setup_fee": 0.0,
+    "avg_nps": 9.0,
+    "churn_rate": 0.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P01x1;P07x1;P23x1;P15x1",
+    "total_sold": 1,
+    "avg_monthly_value": 2880.0,
+    "avg_setup_fee": 1800.0,
+    "avg_nps": 5.0,
+    "churn_rate": 0.0,
+    "top_segment": "Micro retail & services"
+  },
+  {
+    "bundle_code": "P01x11;P09x11;P08x3;P19x11;P10x11;P15x1;P22x11;P25x5",
+    "total_sold": 1,
+    "avg_monthly_value": 72950.0,
+    "avg_setup_fee": 117500.0,
+    "avg_nps": 6.0,
+    "churn_rate": 1.0,
+    "top_segment": "Small multi-site businesses"
+  },
+  {
+    "bundle_code": "P01x1;P08x3;P16x3",
+    "total_sold": 1,
+    "avg_monthly_value": 3510.0,
+    "avg_setup_fee": 0.0,
+    "avg_nps": 4.0,
+    "churn_rate": 0.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P01x1;P07x2;P23x2;P15x1",
+    "total_sold": 1,
+    "avg_monthly_value": 3460.0,
+    "avg_setup_fee": 3600.0,
+    "avg_nps": 9.0,
+    "churn_rate": 1.0,
+    "top_segment": "Micro retail & services"
+  },
+  {
+    "bundle_code": "P02x1;P07x4;P16x14;P09x1",
+    "total_sold": 1,
+    "avg_monthly_value": 5590.0,
+    "avg_setup_fee": 1500.0,
+    "avg_nps": 7.0,
+    "churn_rate": 0.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P03x1;P08x2;P16x9;P11x1",
+    "total_sold": 1,
+    "avg_monthly_value": 7090.0,
+    "avg_setup_fee": 0.0,
+    "avg_nps": 8.0,
+    "churn_rate": 0.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P02x8;P08x5;P10x8;P23x16;P13x1;P22x8",
+    "total_sold": 1,
+    "avg_monthly_value": 49460.0,
+    "avg_setup_fee": 77800.0,
+    "avg_nps": 9.0,
+    "churn_rate": 1.0,
+    "top_segment": "Small multi-site businesses"
+  },
+  {
+    "bundle_code": "P03x1;P08x6;P16x14;P20x12;P11x1;P25x2",
+    "total_sold": 1,
+    "avg_monthly_value": 12810.0,
+    "avg_setup_fee": 3000.0,
+    "avg_nps": 5.0,
+    "churn_rate": 0.0,
+    "top_segment": "Small manufacturers"
+  },
+  {
+    "bundle_code": "P02x1;P08x3;P16x12;P20x7;P17x1;P11x1",
+    "total_sold": 1,
+    "avg_monthly_value": 7000.0,
+    "avg_setup_fee": 0.0,
+    "avg_nps": 6.0,
+    "churn_rate": 0.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P01x5;P08x5;P10x5;P23x10",
+    "total_sold": 1,
+    "avg_monthly_value": 25300.0,
+    "avg_setup_fee": 43000.0,
+    "avg_nps": 6.0,
+    "churn_rate": 0.0,
+    "top_segment": "Small multi-site businesses"
+  },
+  {
+    "bundle_code": "P02x1;P07x1;P16x11;P14x1",
+    "total_sold": 1,
+    "avg_monthly_value": 5300.0,
+    "avg_setup_fee": 0.0,
+    "avg_nps": 10.0,
+    "churn_rate": 0.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P03x1;P07x3;P16x5;P12x3",
+    "total_sold": 1,
+    "avg_monthly_value": 9430.0,
+    "avg_setup_fee": 6000.0,
+    "avg_nps": 7.0,
+    "churn_rate": 1.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P02x12;P08x4;P19x12",
+    "total_sold": 1,
+    "avg_monthly_value": 31360.0,
+    "avg_setup_fee": 30000.0,
+    "avg_nps": 6.0,
+    "churn_rate": 0.0,
+    "top_segment": "Small multi-site businesses"
+  },
+  {
+    "bundle_code": "P03x1;P08x2;P16x10;P12x4",
+    "total_sold": 1,
+    "avg_monthly_value": 12250.0,
+    "avg_setup_fee": 8000.0,
+    "avg_nps": 8.0,
+    "churn_rate": 0.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P03x1;P08x3;P16x4;P20x4;P11x1;P09x1",
+    "total_sold": 1,
+    "avg_monthly_value": 8000.0,
+    "avg_setup_fee": 1500.0,
+    "avg_nps": 8.0,
+    "churn_rate": 0.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P02x1;P07x3;P16x11",
+    "total_sold": 1,
+    "avg_monthly_value": 4120.0,
+    "avg_setup_fee": 0.0,
+    "avg_nps": 9.0,
+    "churn_rate": 0.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P01x1;P07x2;P23x1",
+    "total_sold": 1,
+    "avg_monthly_value": 2000.0,
+    "avg_setup_fee": 1800.0,
+    "avg_nps": 10.0,
+    "churn_rate": 0.0,
+    "top_segment": "Micro retail & services"
+  },
+  {
+    "bundle_code": "P01x1;P07x1;P16x11",
+    "total_sold": 1,
+    "avg_monthly_value": 2940.0,
+    "avg_setup_fee": 0.0,
+    "avg_nps": 5.0,
+    "churn_rate": 0.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P01x1;P07x2;P19x1;P18x1",
+    "total_sold": 1,
+    "avg_monthly_value": 2800.0,
+    "avg_setup_fee": 2500.0,
+    "avg_nps": 7.0,
+    "churn_rate": 0.0,
+    "top_segment": "Micro retail & services"
+  },
+  {
+    "bundle_code": "P01x3;P08x5;P10x3",
+    "total_sold": 1,
+    "avg_monthly_value": 15250.0,
+    "avg_setup_fee": 15000.0,
+    "avg_nps": 8.0,
+    "churn_rate": 0.0,
+    "top_segment": "Small multi-site businesses"
+  },
+  {
+    "bundle_code": "P01x1;P08x2;P16x15;P17x1;P11x1",
+    "total_sold": 1,
+    "avg_monthly_value": 5230.0,
+    "avg_setup_fee": 0.0,
+    "avg_nps": 5.0,
+    "churn_rate": 0.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P01x3;P09x3;P08x5;P19x3;P10x3;P23x6",
+    "total_sold": 1,
+    "avg_monthly_value": 20240.0,
+    "avg_setup_fee": 37800.0,
+    "avg_nps": 7.0,
+    "churn_rate": 0.0,
+    "top_segment": "Small multi-site businesses"
+  },
+  {
+    "bundle_code": "P05x1;P08x3;P16x6;P21x1;P24x7;P23x5;P20x11;P25x3",
+    "total_sold": 1,
+    "avg_monthly_value": 18420.0,
+    "avg_setup_fee": 48500.0,
+    "avg_nps": 5.0,
+    "churn_rate": 0.0,
+    "top_segment": "Small manufacturers"
+  },
+  {
+    "bundle_code": "P02x1;P08x1;P16x10;P12x4",
+    "total_sold": 1,
+    "avg_monthly_value": 8110.0,
+    "avg_setup_fee": 8000.0,
+    "avg_nps": 7.0,
+    "churn_rate": 0.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P01x5;P08x4;P10x5;P15x1",
+    "total_sold": 1,
+    "avg_monthly_value": 22360.0,
+    "avg_setup_fee": 25000.0,
+    "avg_nps": 7.0,
+    "churn_rate": 0.0,
+    "top_segment": "Small multi-site businesses"
+  },
+  {
+    "bundle_code": "P03x1;P08x3;P16x3;P20x3;P11x1",
+    "total_sold": 1,
+    "avg_monthly_value": 7500.0,
+    "avg_setup_fee": 0.0,
+    "avg_nps": 7.0,
+    "churn_rate": 0.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P02x1;P07x1;P16x5;P20x9",
+    "total_sold": 1,
+    "avg_monthly_value": 3640.0,
+    "avg_setup_fee": 0.0,
+    "avg_nps": 8.0,
+    "churn_rate": 0.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P02x1;P08x4;P16x7;P12x3",
+    "total_sold": 1,
+    "avg_monthly_value": 8470.0,
+    "avg_setup_fee": 6000.0,
+    "avg_nps": 6.0,
+    "churn_rate": 0.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P01x6;P09x6;P08x4;P19x6;P13x1",
+    "total_sold": 1,
+    "avg_monthly_value": 18060.0,
+    "avg_setup_fee": 25000.0,
+    "avg_nps": 9.0,
+    "churn_rate": 0.0,
+    "top_segment": "Small multi-site businesses"
+  },
+  {
+    "bundle_code": "P01x4;P09x4;P08x5;P19x4;P13x1;P22x4",
+    "total_sold": 1,
+    "avg_monthly_value": 17240.0,
+    "avg_setup_fee": 21000.0,
+    "avg_nps": 7.0,
+    "churn_rate": 0.0,
+    "top_segment": "Small multi-site businesses"
+  },
+  {
+    "bundle_code": "P01x3;P08x6;P10x3;P23x3;P13x1",
+    "total_sold": 1,
+    "avg_monthly_value": 19430.0,
+    "avg_setup_fee": 21400.0,
+    "avg_nps": 6.0,
+    "churn_rate": 0.0,
+    "top_segment": "Small multi-site businesses"
+  },
+  {
+    "bundle_code": "P01x1;P08x1;P16x4;P17x1;P12x2;P14x1",
+    "total_sold": 1,
+    "avg_monthly_value": 7520.0,
+    "avg_setup_fee": 4000.0,
+    "avg_nps": 9.0,
+    "churn_rate": 1.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P03x1;P07x3;P16x3;P20x3;P17x1",
+    "total_sold": 1,
+    "avg_monthly_value": 6900.0,
+    "avg_setup_fee": 0.0,
+    "avg_nps": 5.0,
+    "churn_rate": 0.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P03x1;P07x1;P16x9;P20x8;P09x1",
+    "total_sold": 1,
+    "avg_monthly_value": 7110.0,
+    "avg_setup_fee": 1500.0,
+    "avg_nps": 7.0,
+    "churn_rate": 0.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P01x1;P07x1;P22x1;P15x1",
+    "total_sold": 1,
+    "avg_monthly_value": 3220.0,
+    "avg_setup_fee": 1000.0,
+    "avg_nps": 7.0,
+    "churn_rate": 0.0,
+    "top_segment": "Micro retail & services"
+  },
+  {
+    "bundle_code": "P03x1;P08x4;P16x4",
+    "total_sold": 1,
+    "avg_monthly_value": 7180.0,
+    "avg_setup_fee": 0.0,
+    "avg_nps": 9.0,
+    "churn_rate": 0.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P05x1;P08x2;P16x11;P23x6;P11x1",
+    "total_sold": 1,
+    "avg_monthly_value": 13710.0,
+    "avg_setup_fee": 20800.0,
+    "avg_nps": 6.0,
+    "churn_rate": 0.0,
+    "top_segment": "Small manufacturers"
+  },
+  {
+    "bundle_code": "P02x1;P07x4;P16x6;P20x4;P11x1",
+    "total_sold": 1,
+    "avg_monthly_value": 4680.0,
+    "avg_setup_fee": 0.0,
+    "avg_nps": 7.0,
+    "churn_rate": 0.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P06x1;P08x3;P16x10;P24x12;P23x5;P20x10;P11x1",
+    "total_sold": 1,
+    "avg_monthly_value": 42750.0,
+    "avg_setup_fee": 60000.0,
+    "avg_nps": 6.0,
+    "churn_rate": 0.0,
+    "top_segment": "Small manufacturers"
+  },
+  {
+    "bundle_code": "P02x1;P07x1;P16x12;P20x9;P17x1",
+    "total_sold": 1,
+    "avg_monthly_value": 5890.0,
+    "avg_setup_fee": 0.0,
+    "avg_nps": 6.0,
+    "churn_rate": 0.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P01x7;P08x3;P19x7;P10x7;P23x14;P22x7",
+    "total_sold": 1,
+    "avg_monthly_value": 40970.0,
+    "avg_setup_fee": 84700.0,
+    "avg_nps": 7.0,
+    "churn_rate": 0.0,
+    "top_segment": "Small multi-site businesses"
+  },
+  {
+    "bundle_code": "P01x11;P08x6;P15x1",
+    "total_sold": 1,
+    "avg_monthly_value": 16840.0,
+    "avg_setup_fee": 0.0,
+    "avg_nps": 7.0,
+    "churn_rate": 0.0,
+    "top_segment": "Small multi-site businesses"
+  },
+  {
+    "bundle_code": "P03x1;P07x1;P16x15;P11x1",
+    "total_sold": 1,
+    "avg_monthly_value": 7130.0,
+    "avg_setup_fee": 0.0,
+    "avg_nps": 8.0,
+    "churn_rate": 0.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P01x1;P08x2;P16x5;P20x8;P17x1",
+    "total_sold": 1,
+    "avg_monthly_value": 4510.0,
+    "avg_setup_fee": 0.0,
+    "avg_nps": 9.0,
+    "churn_rate": 0.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P02x1;P08x4;P16x9;P17x1;P09x1",
+    "total_sold": 1,
+    "avg_monthly_value": 7130.0,
+    "avg_setup_fee": 1500.0,
+    "avg_nps": 7.0,
+    "churn_rate": 1.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P02x1;P08x2;P16x9;P11x1",
+    "total_sold": 1,
+    "avg_monthly_value": 4620.0,
+    "avg_setup_fee": 0.0,
+    "avg_nps": 7.0,
+    "churn_rate": 0.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P06x1;P08x3;P16x10;P24x9;P20x4",
+    "total_sold": 1,
+    "avg_monthly_value": 37110.0,
+    "avg_setup_fee": 42000.0,
+    "avg_nps": 5.0,
+    "churn_rate": 0.0,
+    "top_segment": "Small manufacturers"
+  },
+  {
+    "bundle_code": "P01x1;P08x4;P16x5;P20x3;P17x1;P09x1;P14x1",
+    "total_sold": 1,
+    "avg_monthly_value": 8340.0,
+    "avg_setup_fee": 1500.0,
+    "avg_nps": 7.0,
+    "churn_rate": 0.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P01x11;P09x11;P08x4;P19x11;P10x11",
+    "total_sold": 1,
+    "avg_monthly_value": 57480.0,
+    "avg_setup_fee": 99000.0,
+    "avg_nps": 7.0,
+    "churn_rate": 0.0,
+    "top_segment": "Small multi-site businesses"
+  },
+  {
+    "bundle_code": "P02x5;P09x5;P08x2;P19x5;P13x1;P22x5;P25x3",
+    "total_sold": 1,
+    "avg_monthly_value": 20800.0,
+    "avg_setup_fee": 30500.0,
+    "avg_nps": 8.0,
+    "churn_rate": 0.0,
+    "top_segment": "Small multi-site businesses"
+  },
+  {
+    "bundle_code": "P01x1;P08x4;P16x5;P20x3;P17x1;P12x4",
+    "total_sold": 1,
+    "avg_monthly_value": 10160.0,
+    "avg_setup_fee": 8000.0,
+    "avg_nps": 8.0,
+    "churn_rate": 0.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P02x1;P08x1;P16x11;P12x3",
+    "total_sold": 1,
+    "avg_monthly_value": 6920.0,
+    "avg_setup_fee": 6000.0,
+    "avg_nps": 7.0,
+    "churn_rate": 0.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P02x3;P08x3;P19x3;P23x3",
+    "total_sold": 1,
+    "avg_monthly_value": 10440.0,
+    "avg_setup_fee": 12900.0,
+    "avg_nps": 5.0,
+    "churn_rate": 0.0,
+    "top_segment": "Small multi-site businesses"
+  },
+  {
+    "bundle_code": "P01x1;P07x1;P19x1;P22x1;P15x1",
+    "total_sold": 1,
+    "avg_monthly_value": 3940.0,
+    "avg_setup_fee": 3500.0,
+    "avg_nps": 5.0,
+    "churn_rate": 0.0,
+    "top_segment": "Micro retail & services"
+  },
+  {
+    "bundle_code": "P02x1;P07x4;P16x5;P14x1",
+    "total_sold": 1,
+    "avg_monthly_value": 5420.0,
+    "avg_setup_fee": 0.0,
+    "avg_nps": 5.0,
+    "churn_rate": 0.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P02x1;P07x4;P16x7;P20x4;P17x1",
+    "total_sold": 1,
+    "avg_monthly_value": 5280.0,
+    "avg_setup_fee": 0.0,
+    "avg_nps": 9.0,
+    "churn_rate": 1.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P02x1;P07x2;P16x8;P14x1",
+    "total_sold": 1,
+    "avg_monthly_value": 5110.0,
+    "avg_setup_fee": 0.0,
+    "avg_nps": 8.0,
+    "churn_rate": 0.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P01x1;P07x2;P16x4;P12x4;P11x1;P14x1",
+    "total_sold": 1,
+    "avg_monthly_value": 9140.0,
+    "avg_setup_fee": 8000.0,
+    "avg_nps": 6.0,
+    "churn_rate": 0.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P03x1;P07x1;P16x5;P20x9;P11x1;P09x1",
+    "total_sold": 1,
+    "avg_monthly_value": 7460.0,
+    "avg_setup_fee": 1500.0,
+    "avg_nps": 6.0,
+    "churn_rate": 0.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P05x1;P08x6;P16x12;P20x5;P11x1",
+    "total_sold": 1,
+    "avg_monthly_value": 18280.0,
+    "avg_setup_fee": 10000.0,
+    "avg_nps": 5.0,
+    "churn_rate": 0.0,
+    "top_segment": "Small manufacturers"
+  },
+  {
+    "bundle_code": "P01x1;P08x1;P16x13;P17x1;P09x1",
+    "total_sold": 1,
+    "avg_monthly_value": 4760.0,
+    "avg_setup_fee": 1500.0,
+    "avg_nps": 3.0,
+    "churn_rate": 1.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P02x7;P09x7;P08x4;P19x7;P10x7;P23x7;P22x7",
+    "total_sold": 1,
+    "avg_monthly_value": 52050.0,
+    "avg_setup_fee": 82600.0,
+    "avg_nps": 2.0,
+    "churn_rate": 0.0,
+    "top_segment": "Small multi-site businesses"
+  },
+  {
+    "bundle_code": "P01x3;P08x2;P19x3;P13x1",
+    "total_sold": 1,
+    "avg_monthly_value": 8890.0,
+    "avg_setup_fee": 8500.0,
+    "avg_nps": 8.0,
+    "churn_rate": 0.0,
+    "top_segment": "Small multi-site businesses"
+  },
+  {
+    "bundle_code": "P02x1;P07x4;P16x4;P20x5",
+    "total_sold": 1,
+    "avg_monthly_value": 4280.0,
+    "avg_setup_fee": 0.0,
+    "avg_nps": 7.0,
+    "churn_rate": 0.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P01x1;P07x3;P16x11;P20x4;P12x3;P11x1;P09x1",
+    "total_sold": 1,
+    "avg_monthly_value": 8340.0,
+    "avg_setup_fee": 7500.0,
+    "avg_nps": 9.0,
+    "churn_rate": 0.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P03x1;P07x2;P16x7;P20x2;P17x1;P11x1",
+    "total_sold": 1,
+    "avg_monthly_value": 6850.0,
+    "avg_setup_fee": 0.0,
+    "avg_nps": 8.0,
+    "churn_rate": 0.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P01x9;P09x9;P08x3;P19x9;P23x9;P22x9",
+    "total_sold": 1,
+    "avg_monthly_value": 30090.0,
+    "avg_setup_fee": 61200.0,
+    "avg_nps": 4.0,
+    "churn_rate": 0.0,
+    "top_segment": "Small multi-site businesses"
+  },
+  {
+    "bundle_code": "P02x1;P08x4;P16x10;P20x3;P17x1;P12x4;P11x1",
+    "total_sold": 1,
+    "avg_monthly_value": 11930.0,
+    "avg_setup_fee": 8000.0,
+    "avg_nps": 7.0,
+    "churn_rate": 0.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P02x1;P07x2;P16x5",
+    "total_sold": 1,
+    "avg_monthly_value": 3140.0,
+    "avg_setup_fee": 0.0,
+    "avg_nps": 7.0,
+    "churn_rate": 0.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P01x1;P07x2;P23x1;P15x1;P18x1",
+    "total_sold": 1,
+    "avg_monthly_value": 3340.0,
+    "avg_setup_fee": 1800.0,
+    "avg_nps": 6.0,
+    "churn_rate": 1.0,
+    "top_segment": "Micro retail & services"
+  },
+  {
+    "bundle_code": "P01x7;P08x2;P10x7;P22x7",
+    "total_sold": 1,
+    "avg_monthly_value": 32670.0,
+    "avg_setup_fee": 42000.0,
+    "avg_nps": 7.0,
+    "churn_rate": 1.0,
+    "top_segment": "Small multi-site businesses"
+  },
+  {
+    "bundle_code": "P03x1;P08x2;P16x7;P12x2;P11x1;P14x1",
+    "total_sold": 1,
+    "avg_monthly_value": 10860.0,
+    "avg_setup_fee": 4000.0,
+    "avg_nps": 4.0,
+    "churn_rate": 0.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P02x1;P08x3;P16x13",
+    "total_sold": 1,
+    "avg_monthly_value": 5300.0,
+    "avg_setup_fee": 0.0,
+    "avg_nps": 8.0,
+    "churn_rate": 0.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P02x12;P08x5;P10x12",
+    "total_sold": 1,
+    "avg_monthly_value": 60180.0,
+    "avg_setup_fee": 60000.0,
+    "avg_nps": 9.0,
+    "churn_rate": 0.0,
+    "top_segment": "Small multi-site businesses"
+  },
+  {
+    "bundle_code": "P02x9;P09x9;P08x6;P19x9;P23x9;P15x1",
+    "total_sold": 1,
+    "avg_monthly_value": 34010.0,
+    "avg_setup_fee": 52200.0,
+    "avg_nps": 8.0,
+    "churn_rate": 0.0,
+    "top_segment": "Small multi-site businesses"
+  },
+  {
+    "bundle_code": "P02x1;P07x3;P16x5;P20x9;P11x1",
+    "total_sold": 1,
+    "avg_monthly_value": 4780.0,
+    "avg_setup_fee": 0.0,
+    "avg_nps": 7.0,
+    "churn_rate": 0.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P03x1;P07x3;P16x4;P12x2",
+    "total_sold": 1,
+    "avg_monthly_value": 7990.0,
+    "avg_setup_fee": 4000.0,
+    "avg_nps": 9.0,
+    "churn_rate": 1.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P01x1;P08x3;P16x6;P20x9",
+    "total_sold": 1,
+    "avg_monthly_value": 4870.0,
+    "avg_setup_fee": 0.0,
+    "avg_nps": 9.0,
+    "churn_rate": 0.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P03x1;P08x4;P16x6",
+    "total_sold": 1,
+    "avg_monthly_value": 7950.0,
+    "avg_setup_fee": 0.0,
+    "avg_nps": 4.0,
+    "churn_rate": 0.0,
+    "top_segment": "Small manufacturers"
+  },
+  {
+    "bundle_code": "P01x1;P07x2;P16x6;P20x6;P17x1",
+    "total_sold": 1,
+    "avg_monthly_value": 3780.0,
+    "avg_setup_fee": 0.0,
+    "avg_nps": 8.0,
+    "churn_rate": 0.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P03x1;P08x3;P16x8",
+    "total_sold": 1,
+    "avg_monthly_value": 6890.0,
+    "avg_setup_fee": 0.0,
+    "avg_nps": 10.0,
+    "churn_rate": 0.0,
+    "top_segment": "Small manufacturers"
+  },
+  {
+    "bundle_code": "P02x1;P08x4;P16x6;P20x2;P17x1;P12x4;P14x1",
+    "total_sold": 1,
+    "avg_monthly_value": 12210.0,
+    "avg_setup_fee": 8000.0,
+    "avg_nps": 6.0,
+    "churn_rate": 0.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P01x1;P07x1;P19x1;P15x1;P18x1",
+    "total_sold": 1,
+    "avg_monthly_value": 4110.0,
+    "avg_setup_fee": 2500.0,
+    "avg_nps": 9.0,
+    "churn_rate": 1.0,
+    "top_segment": "Micro retail & services"
+  },
+  {
+    "bundle_code": "P01x1;P08x2;P16x3;P20x3;P17x1;P12x4;P09x1;P14x1",
+    "total_sold": 1,
+    "avg_monthly_value": 10750.0,
+    "avg_setup_fee": 9500.0,
+    "avg_nps": 7.0,
+    "churn_rate": 1.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P01x6;P08x6;P10x6",
+    "total_sold": 1,
+    "avg_monthly_value": 30600.0,
+    "avg_setup_fee": 30000.0,
+    "avg_nps": 6.0,
+    "churn_rate": 0.0,
+    "top_segment": "Small multi-site businesses"
+  },
+  {
+    "bundle_code": "P02x1;P08x1;P16x9;P20x3;P12x4;P14x1",
+    "total_sold": 1,
+    "avg_monthly_value": 9870.0,
+    "avg_setup_fee": 8000.0,
+    "avg_nps": 6.0,
+    "churn_rate": 0.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P03x1;P08x3;P16x4;P20x4;P17x1;P12x3;P14x1",
+    "total_sold": 1,
+    "avg_monthly_value": 13470.0,
+    "avg_setup_fee": 6000.0,
+    "avg_nps": 8.0,
+    "churn_rate": 0.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P02x3;P08x4;P10x3;P23x3;P13x1;P15x1;P22x3",
+    "total_sold": 1,
+    "avg_monthly_value": 20630.0,
+    "avg_setup_fee": 24400.0,
+    "avg_nps": 6.0,
+    "churn_rate": 0.0,
+    "top_segment": "Small multi-site businesses"
+  },
+  {
+    "bundle_code": "P03x1;P07x3;P16x11;P17x1",
+    "total_sold": 1,
+    "avg_monthly_value": 7680.0,
+    "avg_setup_fee": 0.0,
+    "avg_nps": 6.0,
+    "churn_rate": 0.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P04x1;P07x2;P22x1",
+    "total_sold": 1,
+    "avg_monthly_value": 2350.0,
+    "avg_setup_fee": 1000.0,
+    "avg_nps": 6.0,
+    "churn_rate": 0.0,
+    "top_segment": "Micro retail & services"
+  },
+  {
+    "bundle_code": "P02x1;P07x4;P16x13;P17x1",
+    "total_sold": 1,
+    "avg_monthly_value": 5510.0,
+    "avg_setup_fee": 0.0,
+    "avg_nps": 7.0,
+    "churn_rate": 0.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P02x1;P07x3;P16x9;P17x1",
+    "total_sold": 1,
+    "avg_monthly_value": 4750.0,
+    "avg_setup_fee": 0.0,
+    "avg_nps": 6.0,
+    "churn_rate": 0.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P02x5;P08x3;P19x5;P10x5;P23x10;P13x1;P25x4",
+    "total_sold": 1,
+    "avg_monthly_value": 34340.0,
+    "avg_setup_fee": 62500.0,
+    "avg_nps": 7.0,
+    "churn_rate": 0.0,
+    "top_segment": "Small multi-site businesses"
+  },
+  {
+    "bundle_code": "P01x1;P07x2;P19x1;P23x2",
+    "total_sold": 1,
+    "avg_monthly_value": 3170.0,
+    "avg_setup_fee": 6100.0,
+    "avg_nps": 8.0,
+    "churn_rate": 1.0,
+    "top_segment": "Micro retail & services"
+  },
+  {
+    "bundle_code": "P01x1;P07x4;P16x6;P20x5;P17x1",
+    "total_sold": 1,
+    "avg_monthly_value": 4740.0,
+    "avg_setup_fee": 0.0,
+    "avg_nps": 7.0,
+    "churn_rate": 0.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P02x4;P08x6;P19x4;P10x4",
+    "total_sold": 1,
+    "avg_monthly_value": 24660.0,
+    "avg_setup_fee": 30000.0,
+    "avg_nps": 4.0,
+    "churn_rate": 0.0,
+    "top_segment": "Small multi-site businesses"
+  },
+  {
+    "bundle_code": "P02x1;P08x3;P16x10;P20x5;P12x4",
+    "total_sold": 1,
+    "avg_monthly_value": 9730.0,
+    "avg_setup_fee": 8000.0,
+    "avg_nps": 4.0,
+    "churn_rate": 0.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P01x8;P09x8;P08x3",
+    "total_sold": 1,
+    "avg_monthly_value": 14230.0,
+    "avg_setup_fee": 12000.0,
+    "avg_nps": 9.0,
+    "churn_rate": 0.0,
+    "top_segment": "Small multi-site businesses"
+  },
+  {
+    "bundle_code": "P01x7;P08x5;P13x1;P15x1",
+    "total_sold": 1,
+    "avg_monthly_value": 14460.0,
+    "avg_setup_fee": 1000.0,
+    "avg_nps": 9.0,
+    "churn_rate": 0.0,
+    "top_segment": "Small multi-site businesses"
+  },
+  {
+    "bundle_code": "P03x1;P07x1;P16x10;P20x10;P17x1;P14x1",
+    "total_sold": 1,
+    "avg_monthly_value": 9330.0,
+    "avg_setup_fee": 0.0,
+    "avg_nps": 5.0,
+    "churn_rate": 0.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P02x10;P09x10;P08x2;P13x1;P22x10",
+    "total_sold": 1,
+    "avg_monthly_value": 31530.0,
+    "avg_setup_fee": 26000.0,
+    "avg_nps": 7.0,
+    "churn_rate": 0.0,
+    "top_segment": "Small multi-site businesses"
+  },
+  {
+    "bundle_code": "P02x1;P08x1;P16x4;P20x4;P11x1",
+    "total_sold": 1,
+    "avg_monthly_value": 3670.0,
+    "avg_setup_fee": 0.0,
+    "avg_nps": 5.0,
+    "churn_rate": 0.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P01x1;P08x1;P16x10;P12x3",
+    "total_sold": 1,
+    "avg_monthly_value": 6570.0,
+    "avg_setup_fee": 6000.0,
+    "avg_nps": 7.0,
+    "churn_rate": 0.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P01x1;P07x4;P16x15;P09x1",
+    "total_sold": 1,
+    "avg_monthly_value": 5020.0,
+    "avg_setup_fee": 1500.0,
+    "avg_nps": 6.0,
+    "churn_rate": 1.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P02x1;P08x4;P16x5;P11x1;P09x1",
+    "total_sold": 1,
+    "avg_monthly_value": 6000.0,
+    "avg_setup_fee": 1500.0,
+    "avg_nps": 7.0,
+    "churn_rate": 0.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P02x12;P09x12;P08x3;P22x12",
+    "total_sold": 1,
+    "avg_monthly_value": 34710.0,
+    "avg_setup_fee": 30000.0,
+    "avg_nps": 6.0,
+    "churn_rate": 0.0,
+    "top_segment": "Small multi-site businesses"
+  },
+  {
+    "bundle_code": "P04x1;P07x1;P22x1;P23x1;P15x1;P18x1",
+    "total_sold": 1,
+    "avg_monthly_value": 3540.0,
+    "avg_setup_fee": 2800.0,
+    "avg_nps": 6.0,
+    "churn_rate": 1.0,
+    "top_segment": "Micro retail & services"
+  },
+  {
+    "bundle_code": "P04x1;P07x2;P15x1",
+    "total_sold": 1,
+    "avg_monthly_value": 3040.0,
+    "avg_setup_fee": 0.0,
+    "avg_nps": 6.0,
+    "churn_rate": 0.0,
+    "top_segment": "Micro retail & services"
+  },
+  {
+    "bundle_code": "P01x1;P07x1;P23x2;P18x1",
+    "total_sold": 1,
+    "avg_monthly_value": 2370.0,
+    "avg_setup_fee": 3600.0,
+    "avg_nps": 7.0,
+    "churn_rate": 0.0,
+    "top_segment": "Micro retail & services"
+  },
+  {
+    "bundle_code": "P05x1;P08x5;P16x6;P23x5",
+    "total_sold": 1,
+    "avg_monthly_value": 16280.0,
+    "avg_setup_fee": 19000.0,
+    "avg_nps": 7.0,
+    "churn_rate": 0.0,
+    "top_segment": "Small manufacturers"
+  },
+  {
+    "bundle_code": "P01x1;P07x2;P19x1;P15x1",
+    "total_sold": 1,
+    "avg_monthly_value": 3750.0,
+    "avg_setup_fee": 2500.0,
+    "avg_nps": 6.0,
+    "churn_rate": 0.0,
+    "top_segment": "Micro retail & services"
+  },
+  {
+    "bundle_code": "P04x1;P07x1;P22x1",
+    "total_sold": 1,
+    "avg_monthly_value": 1760.0,
+    "avg_setup_fee": 1000.0,
+    "avg_nps": 8.0,
+    "churn_rate": 0.0,
+    "top_segment": "Micro retail & services"
+  },
+  {
+    "bundle_code": "P02x6;P09x6;P08x6;P23x6;P13x1;P22x6",
+    "total_sold": 1,
+    "avg_monthly_value": 23430.0,
+    "avg_setup_fee": 26800.0,
+    "avg_nps": 8.0,
+    "churn_rate": 0.0,
+    "top_segment": "Small multi-site businesses"
+  },
+  {
+    "bundle_code": "P02x12;P09x12;P08x2;P19x12;P22x12",
+    "total_sold": 1,
+    "avg_monthly_value": 44400.0,
+    "avg_setup_fee": 60000.0,
+    "avg_nps": 4.0,
+    "churn_rate": 0.0,
+    "top_segment": "Small multi-site businesses"
+  },
+  {
+    "bundle_code": "P01x1;P08x3;P16x10",
+    "total_sold": 1,
+    "avg_monthly_value": 4790.0,
+    "avg_setup_fee": 0.0,
+    "avg_nps": 9.0,
+    "churn_rate": 0.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P02x1;P07x2;P16x14;P09x1",
+    "total_sold": 1,
+    "avg_monthly_value": 4870.0,
+    "avg_setup_fee": 1500.0,
+    "avg_nps": 8.0,
+    "churn_rate": 1.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P02x1;P07x1;P16x4;P17x1;P12x3",
+    "total_sold": 1,
+    "avg_monthly_value": 7450.0,
+    "avg_setup_fee": 6000.0,
+    "avg_nps": 8.0,
+    "churn_rate": 0.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P01x4;P09x4;P08x2;P19x4;P10x4",
+    "total_sold": 1,
+    "avg_monthly_value": 23460.0,
+    "avg_setup_fee": 36000.0,
+    "avg_nps": 7.0,
+    "churn_rate": 0.0,
+    "top_segment": "Small multi-site businesses"
+  },
+  {
+    "bundle_code": "P02x1;P08x2;P16x7;P20x9;P12x3;P14x1",
+    "total_sold": 1,
+    "avg_monthly_value": 10110.0,
+    "avg_setup_fee": 6000.0,
+    "avg_nps": 6.0,
+    "churn_rate": 0.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P04x1;P07x2;P19x1;P15x1",
+    "total_sold": 1,
+    "avg_monthly_value": 3470.0,
+    "avg_setup_fee": 2500.0,
+    "avg_nps": 7.0,
+    "churn_rate": 0.0,
+    "top_segment": "Micro retail & services"
+  },
+  {
+    "bundle_code": "P02x7;P08x3;P19x7;P23x14",
+    "total_sold": 1,
+    "avg_monthly_value": 22500.0,
+    "avg_setup_fee": 42700.0,
+    "avg_nps": 7.0,
+    "churn_rate": 0.0,
+    "top_segment": "Small multi-site businesses"
+  },
+  {
+    "bundle_code": "P05x1;P08x3;P16x11;P20x12;P11x1",
+    "total_sold": 1,
+    "avg_monthly_value": 14250.0,
+    "avg_setup_fee": 10000.0,
+    "avg_nps": 6.0,
+    "churn_rate": 0.0,
+    "top_segment": "Small manufacturers"
+  },
+  {
+    "bundle_code": "P02x12;P08x6",
+    "total_sold": 1,
+    "avg_monthly_value": 22920.0,
+    "avg_setup_fee": 0.0,
+    "avg_nps": 6.0,
+    "churn_rate": 0.0,
+    "top_segment": "Small multi-site businesses"
+  },
+  {
+    "bundle_code": "P02x1;P08x4;P16x4;P20x2;P17x1;P11x1;P09x1",
+    "total_sold": 1,
+    "avg_monthly_value": 6420.0,
+    "avg_setup_fee": 1500.0,
+    "avg_nps": 10.0,
+    "churn_rate": 1.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P01x1;P08x4;P16x3",
+    "total_sold": 1,
+    "avg_monthly_value": 4230.0,
+    "avg_setup_fee": 0.0,
+    "avg_nps": 7.0,
+    "churn_rate": 1.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P02x11;P09x11;P08x4;P19x11",
+    "total_sold": 1,
+    "avg_monthly_value": 35750.0,
+    "avg_setup_fee": 44000.0,
+    "avg_nps": 5.0,
+    "churn_rate": 0.0,
+    "top_segment": "Small multi-site businesses"
+  },
+  {
+    "bundle_code": "P02x4;P08x5;P10x4;P23x8",
+    "total_sold": 1,
+    "avg_monthly_value": 25530.0,
+    "avg_setup_fee": 34400.0,
+    "avg_nps": 5.0,
+    "churn_rate": 0.0,
+    "top_segment": "Small multi-site businesses"
+  },
+  {
+    "bundle_code": "P02x1;P07x2;P16x5;P20x7;P17x1",
+    "total_sold": 1,
+    "avg_monthly_value": 4380.0,
+    "avg_setup_fee": 0.0,
+    "avg_nps": 7.0,
+    "churn_rate": 0.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P06x1;P08x6;P16x11",
+    "total_sold": 1,
+    "avg_monthly_value": 39390.0,
+    "avg_setup_fee": 15000.0,
+    "avg_nps": 7.0,
+    "churn_rate": 0.0,
+    "top_segment": "Small manufacturers"
+  },
+  {
+    "bundle_code": "P01x1;P08x3;P16x6;P17x1",
+    "total_sold": 1,
+    "avg_monthly_value": 4280.0,
+    "avg_setup_fee": 0.0,
+    "avg_nps": 7.0,
+    "churn_rate": 1.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P02x12;P09x12;P08x2;P23x24",
+    "total_sold": 1,
+    "avg_monthly_value": 31000.0,
+    "avg_setup_fee": 61200.0,
+    "avg_nps": 6.0,
+    "churn_rate": 0.0,
+    "top_segment": "Small multi-site businesses"
+  },
+  {
+    "bundle_code": "P03x1;P08x1;P16x4;P12x4;P09x1",
+    "total_sold": 1,
+    "avg_monthly_value": 10060.0,
+    "avg_setup_fee": 9500.0,
+    "avg_nps": 7.0,
+    "churn_rate": 0.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P01x1;P07x1;P15x1;P18x1",
+    "total_sold": 1,
+    "avg_monthly_value": 3230.0,
+    "avg_setup_fee": 0.0,
+    "avg_nps": 10.0,
+    "churn_rate": 0.0,
+    "top_segment": "Micro retail & services"
+  },
+  {
+    "bundle_code": "P01x5;P09x5;P08x3;P19x5;P22x5",
+    "total_sold": 1,
+    "avg_monthly_value": 17260.0,
+    "avg_setup_fee": 25000.0,
+    "avg_nps": 6.0,
+    "churn_rate": 0.0,
+    "top_segment": "Small multi-site businesses"
+  },
+  {
+    "bundle_code": "P03x1;P08x2;P16x13;P21x1;P23x4",
+    "total_sold": 1,
+    "avg_monthly_value": 10950.0,
+    "avg_setup_fee": 11200.0,
+    "avg_nps": 7.0,
+    "churn_rate": 0.0,
+    "top_segment": "Small manufacturers"
+  },
+  {
+    "bundle_code": "P03x1;P08x4;P16x11;P20x4",
+    "total_sold": 1,
+    "avg_monthly_value": 9190.0,
+    "avg_setup_fee": 0.0,
+    "avg_nps": 9.0,
+    "churn_rate": 0.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P02x1;P08x4;P16x6;P20x6;P17x1",
+    "total_sold": 1,
+    "avg_monthly_value": 6270.0,
+    "avg_setup_fee": 0.0,
+    "avg_nps": 8.0,
+    "churn_rate": 0.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P02x1;P08x4;P16x15;P20x9;P11x1",
+    "total_sold": 1,
+    "avg_monthly_value": 8020.0,
+    "avg_setup_fee": 0.0,
+    "avg_nps": 8.0,
+    "churn_rate": 1.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P04x1;P07x1;P19x1",
+    "total_sold": 1,
+    "avg_monthly_value": 2110.0,
+    "avg_setup_fee": 2500.0,
+    "avg_nps": 6.0,
+    "churn_rate": 0.0,
+    "top_segment": "Micro retail & services"
+  },
+  {
+    "bundle_code": "P05x1;P08x5;P16x18;P21x1;P20x6;P11x1",
+    "total_sold": 1,
+    "avg_monthly_value": 21250.0,
+    "avg_setup_fee": 14000.0,
+    "avg_nps": 6.0,
+    "churn_rate": 0.0,
+    "top_segment": "Small manufacturers"
+  },
+  {
+    "bundle_code": "P01x3;P09x3;P08x3;P19x3;P10x3;P23x6;P13x1",
+    "total_sold": 1,
+    "avg_monthly_value": 21690.0,
+    "avg_setup_fee": 38800.0,
+    "avg_nps": 5.0,
+    "churn_rate": 0.0,
+    "top_segment": "Small multi-site businesses"
+  },
+  {
+    "bundle_code": "P01x1;P07x2;P16x8;P20x7;P11x1",
+    "total_sold": 1,
+    "avg_monthly_value": 4010.0,
+    "avg_setup_fee": 0.0,
+    "avg_nps": 4.0,
+    "churn_rate": 0.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P02x5;P09x5;P08x4;P19x5;P10x5;P23x5",
+    "total_sold": 1,
+    "avg_monthly_value": 32150.0,
+    "avg_setup_fee": 54000.0,
+    "avg_nps": 7.0,
+    "churn_rate": 0.0,
+    "top_segment": "Small multi-site businesses"
+  },
+  {
+    "bundle_code": "P02x1;P08x3;P16x4;P20x7;P09x1",
+    "total_sold": 1,
+    "avg_monthly_value": 6090.0,
+    "avg_setup_fee": 1500.0,
+    "avg_nps": 6.0,
+    "churn_rate": 0.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P06x1;P08x5;P16x11;P20x6;P11x1;P25x6",
+    "total_sold": 1,
+    "avg_monthly_value": 40950.0,
+    "avg_setup_fee": 24000.0,
+    "avg_nps": 6.0,
+    "churn_rate": 0.0,
+    "top_segment": "Small manufacturers"
+  },
+  {
+    "bundle_code": "P05x1;P08x4;P16x5;P21x1",
+    "total_sold": 1,
+    "avg_monthly_value": 15880.0,
+    "avg_setup_fee": 14000.0,
+    "avg_nps": 6.0,
+    "churn_rate": 0.0,
+    "top_segment": "Small manufacturers"
+  },
+  {
+    "bundle_code": "P02x8;P09x8;P08x2;P15x1;P25x7",
+    "total_sold": 1,
+    "avg_monthly_value": 22630.0,
+    "avg_setup_fee": 22500.0,
+    "avg_nps": 8.0,
+    "churn_rate": 0.0,
+    "top_segment": "Small multi-site businesses"
+  },
+  {
+    "bundle_code": "P01x1;P08x3;P16x9;P12x4;P09x1",
+    "total_sold": 1,
+    "avg_monthly_value": 10230.0,
+    "avg_setup_fee": 9500.0,
+    "avg_nps": 6.0,
+    "churn_rate": 0.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P02x8;P09x8;P08x6;P19x8;P10x8;P23x16;P22x8",
+    "total_sold": 1,
+    "avg_monthly_value": 65520.0,
+    "avg_setup_fee": 108800.0,
+    "avg_nps": 6.0,
+    "churn_rate": 0.0,
+    "top_segment": "Small multi-site businesses"
+  },
+  {
+    "bundle_code": "P01x1;P08x3;P16x6;P20x6;P11x1",
+    "total_sold": 1,
+    "avg_monthly_value": 4740.0,
+    "avg_setup_fee": 0.0,
+    "avg_nps": 8.0,
+    "churn_rate": 1.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P01x6;P09x6;P08x5;P19x6;P10x6;P13x1;P25x3",
+    "total_sold": 1,
+    "avg_monthly_value": 39480.0,
+    "avg_setup_fee": 59500.0,
+    "avg_nps": 6.0,
+    "churn_rate": 0.0,
+    "top_segment": "Small multi-site businesses"
+  },
+  {
+    "bundle_code": "P01x1;P08x1;P16x3;P20x3;P12x4;P14x1",
+    "total_sold": 1,
+    "avg_monthly_value": 9580.0,
+    "avg_setup_fee": 8000.0,
+    "avg_nps": 9.0,
+    "churn_rate": 0.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P02x6;P09x6;P08x3;P19x6;P23x6;P22x6",
+    "total_sold": 1,
+    "avg_monthly_value": 23760.0,
+    "avg_setup_fee": 40800.0,
+    "avg_nps": 7.0,
+    "churn_rate": 1.0,
+    "top_segment": "Small multi-site businesses"
+  },
+  {
+    "bundle_code": "P06x1;P08x5;P16x13;P25x5",
+    "total_sold": 1,
+    "avg_monthly_value": 35230.0,
+    "avg_setup_fee": 22500.0,
+    "avg_nps": 5.0,
+    "churn_rate": 1.0,
+    "top_segment": "Small manufacturers"
+  },
+  {
+    "bundle_code": "P01x11;P08x6;P19x11;P10x11;P23x11;P15x1;P25x7",
+    "total_sold": 1,
+    "avg_monthly_value": 68060.0,
+    "avg_setup_fee": 112800.0,
+    "avg_nps": 7.0,
+    "churn_rate": 0.0,
+    "top_segment": "Small multi-site businesses"
+  },
+  {
+    "bundle_code": "P01x7;P08x3;P10x7;P25x6",
+    "total_sold": 1,
+    "avg_monthly_value": 28610.0,
+    "avg_setup_fee": 44000.0,
+    "avg_nps": 6.0,
+    "churn_rate": 1.0,
+    "top_segment": "Small multi-site businesses"
+  },
+  {
+    "bundle_code": "P01x7;P09x7;P08x4;P19x7;P13x1",
+    "total_sold": 1,
+    "avg_monthly_value": 21400.0,
+    "avg_setup_fee": 29000.0,
+    "avg_nps": 8.0,
+    "churn_rate": 0.0,
+    "top_segment": "Small multi-site businesses"
+  },
+  {
+    "bundle_code": "P05x1;P08x4;P16x9;P21x1;P20x6",
+    "total_sold": 1,
+    "avg_monthly_value": 18510.0,
+    "avg_setup_fee": 14000.0,
+    "avg_nps": 9.0,
+    "churn_rate": 0.0,
+    "top_segment": "Small manufacturers"
+  },
+  {
+    "bundle_code": "P02x5;P08x4;P19x5;P10x5;P15x1",
+    "total_sold": 1,
+    "avg_monthly_value": 32020.0,
+    "avg_setup_fee": 37500.0,
+    "avg_nps": 8.0,
+    "churn_rate": 0.0,
+    "top_segment": "Small multi-site businesses"
+  },
+  {
+    "bundle_code": "P01x1;P07x2;P16x5;P20x4;P14x1",
+    "total_sold": 1,
+    "avg_monthly_value": 4710.0,
+    "avg_setup_fee": 0.0,
+    "avg_nps": 8.0,
+    "churn_rate": 0.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P01x11;P08x2;P23x22;P15x1",
+    "total_sold": 1,
+    "avg_monthly_value": 21500.0,
+    "avg_setup_fee": 39600.0,
+    "avg_nps": 9.0,
+    "churn_rate": 0.0,
+    "top_segment": "Small multi-site businesses"
+  },
+  {
+    "bundle_code": "P02x1;P07x2;P16x3;P20x8",
+    "total_sold": 1,
+    "avg_monthly_value": 3650.0,
+    "avg_setup_fee": 0.0,
+    "avg_nps": 6.0,
+    "churn_rate": 1.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P02x8;P09x8;P08x2;P15x1;P22x8",
+    "total_sold": 1,
+    "avg_monthly_value": 23760.0,
+    "avg_setup_fee": 20000.0,
+    "avg_nps": 5.0,
+    "churn_rate": 0.0,
+    "top_segment": "Small multi-site businesses"
+  },
+  {
+    "bundle_code": "P02x1;P08x2;P16x3;P17x1;P12x2",
+    "total_sold": 1,
+    "avg_monthly_value": 6190.0,
+    "avg_setup_fee": 4000.0,
+    "avg_nps": 10.0,
+    "churn_rate": 0.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P05x1;P08x6;P16x9;P21x1;P24x10;P11x1",
+    "total_sold": 1,
+    "avg_monthly_value": 18310.0,
+    "avg_setup_fee": 44000.0,
+    "avg_nps": 6.0,
+    "churn_rate": 0.0,
+    "top_segment": "Small manufacturers"
+  },
+  {
+    "bundle_code": "P03x1;P08x4;P16x7;P12x4;P09x1",
+    "total_sold": 1,
+    "avg_monthly_value": 13150.0,
+    "avg_setup_fee": 9500.0,
+    "avg_nps": 6.0,
+    "churn_rate": 0.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P01x8;P09x8;P08x2;P10x8;P13x1;P15x1;P22x8",
+    "total_sold": 1,
+    "avg_monthly_value": 44750.0,
+    "avg_setup_fee": 61000.0,
+    "avg_nps": 9.0,
+    "churn_rate": 0.0,
+    "top_segment": "Small multi-site businesses"
+  },
+  {
+    "bundle_code": "P01x1;P08x3;P16x9;P20x7;P17x1",
+    "total_sold": 1,
+    "avg_monthly_value": 5730.0,
+    "avg_setup_fee": 0.0,
+    "avg_nps": 5.0,
+    "churn_rate": 0.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P03x1;P07x3;P16x4;P17x1;P11x1;P09x1",
+    "total_sold": 1,
+    "avg_monthly_value": 7590.0,
+    "avg_setup_fee": 1500.0,
+    "avg_nps": 8.0,
+    "churn_rate": 0.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P03x1;P07x1;P16x6;P20x10",
+    "total_sold": 1,
+    "avg_monthly_value": 6580.0,
+    "avg_setup_fee": 0.0,
+    "avg_nps": 9.0,
+    "churn_rate": 0.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P01x11;P09x11;P08x3;P10x11;P23x22;P25x3",
+    "total_sold": 1,
+    "avg_monthly_value": 56400.0,
+    "avg_setup_fee": 115600.0,
+    "avg_nps": 6.0,
+    "churn_rate": 0.0,
+    "top_segment": "Small multi-site businesses"
+  },
+  {
+    "bundle_code": "P01x3;P09x3;P08x4;P19x3;P15x1;P22x3",
+    "total_sold": 1,
+    "avg_monthly_value": 12760.0,
+    "avg_setup_fee": 15000.0,
+    "avg_nps": 8.0,
+    "churn_rate": 0.0,
+    "top_segment": "Small multi-site businesses"
+  },
+  {
+    "bundle_code": "P01x10;P09x10;P08x6;P13x1",
+    "total_sold": 1,
+    "avg_monthly_value": 22250.0,
+    "avg_setup_fee": 16000.0,
+    "avg_nps": 9.0,
+    "churn_rate": 0.0,
+    "top_segment": "Small multi-site businesses"
+  },
+  {
+    "bundle_code": "P02x1;P07x2;P16x14",
+    "total_sold": 1,
+    "avg_monthly_value": 3990.0,
+    "avg_setup_fee": 0.0,
+    "avg_nps": 6.0,
+    "churn_rate": 0.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P03x1;P08x2;P16x7;P20x4;P11x1;P14x1",
+    "total_sold": 1,
+    "avg_monthly_value": 9320.0,
+    "avg_setup_fee": 0.0,
+    "avg_nps": 8.0,
+    "churn_rate": 0.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P01x1;P08x4;P16x4;P20x6;P14x1",
+    "total_sold": 1,
+    "avg_monthly_value": 7280.0,
+    "avg_setup_fee": 0.0,
+    "avg_nps": 8.0,
+    "churn_rate": 0.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P02x8;P08x2;P19x8;P10x8",
+    "total_sold": 1,
+    "avg_monthly_value": 45780.0,
+    "avg_setup_fee": 60000.0,
+    "avg_nps": 6.0,
+    "churn_rate": 0.0,
+    "top_segment": "Small multi-site businesses"
+  },
+  {
+    "bundle_code": "P02x1;P08x2;P16x8;P17x1",
+    "total_sold": 1,
+    "avg_monthly_value": 4880.0,
+    "avg_setup_fee": 0.0,
+    "avg_nps": 5.0,
+    "churn_rate": 0.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P06x1;P08x6;P16x13;P24x10;P23x6;P20x7",
+    "total_sold": 1,
+    "avg_monthly_value": 40580.0,
+    "avg_setup_fee": 55800.0,
+    "avg_nps": 8.0,
+    "churn_rate": 0.0,
+    "top_segment": "Small manufacturers"
+  },
+  {
+    "bundle_code": "P01x5;P08x6",
+    "total_sold": 1,
+    "avg_monthly_value": 9610.0,
+    "avg_setup_fee": 0.0,
+    "avg_nps": 5.0,
+    "churn_rate": 0.0,
+    "top_segment": "Small multi-site businesses"
+  },
+  {
+    "bundle_code": "P02x1;P07x2;P16x15;P12x2;P09x1",
+    "total_sold": 1,
+    "avg_monthly_value": 6900.0,
+    "avg_setup_fee": 5500.0,
+    "avg_nps": 9.0,
+    "churn_rate": 0.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P03x1;P07x2;P16x6;P09x1",
+    "total_sold": 1,
+    "avg_monthly_value": 6190.0,
+    "avg_setup_fee": 1500.0,
+    "avg_nps": 6.0,
+    "churn_rate": 0.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P03x1;P08x3;P16x15;P12x2;P11x1",
+    "total_sold": 1,
+    "avg_monthly_value": 10360.0,
+    "avg_setup_fee": 4000.0,
+    "avg_nps": 6.0,
+    "churn_rate": 0.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P01x1;P07x1;P23x2",
+    "total_sold": 1,
+    "avg_monthly_value": 1870.0,
+    "avg_setup_fee": 3600.0,
+    "avg_nps": 7.0,
+    "churn_rate": 0.0,
+    "top_segment": "Micro retail & services"
+  },
+  {
+    "bundle_code": "P01x1;P07x2;P22x1;P23x1;P15x1",
+    "total_sold": 1,
+    "avg_monthly_value": 3970.0,
+    "avg_setup_fee": 2800.0,
+    "avg_nps": 7.0,
+    "churn_rate": 0.0,
+    "top_segment": "Micro retail & services"
+  },
+  {
+    "bundle_code": "P05x1;P08x4;P16x18;P24x9;P23x5",
+    "total_sold": 1,
+    "avg_monthly_value": 20620.0,
+    "avg_setup_fee": 46000.0,
+    "avg_nps": 5.0,
+    "churn_rate": 0.0,
+    "top_segment": "Small manufacturers"
+  },
+  {
+    "bundle_code": "P03x1;P08x4;P16x14;P11x1",
+    "total_sold": 1,
+    "avg_monthly_value": 9640.0,
+    "avg_setup_fee": 0.0,
+    "avg_nps": 5.0,
+    "churn_rate": 0.0,
+    "top_segment": "Small manufacturers"
+  },
+  {
+    "bundle_code": "P01x8;P09x8;P08x4;P10x8;P22x8",
+    "total_sold": 1,
+    "avg_monthly_value": 43200.0,
+    "avg_setup_fee": 60000.0,
+    "avg_nps": 10.0,
+    "churn_rate": 0.0,
+    "top_segment": "Small multi-site businesses"
+  },
+  {
+    "bundle_code": "P01x1;P08x2;P16x13;P20x5;P17x1;P11x1",
+    "total_sold": 1,
+    "avg_monthly_value": 6000.0,
+    "avg_setup_fee": 0.0,
+    "avg_nps": 7.0,
+    "churn_rate": 0.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P02x1;P08x2;P16x5;P17x1",
+    "total_sold": 1,
+    "avg_monthly_value": 4390.0,
+    "avg_setup_fee": 0.0,
+    "avg_nps": 4.0,
+    "churn_rate": 0.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P06x1;P08x4;P16x6;P21x1;P24x11;P25x4",
+    "total_sold": 1,
+    "avg_monthly_value": 38850.0,
+    "avg_setup_fee": 58000.0,
+    "avg_nps": 5.0,
+    "churn_rate": 0.0,
+    "top_segment": "Small manufacturers"
+  },
+  {
+    "bundle_code": "P01x1;P07x2;P19x1;P15x1;P18x1",
+    "total_sold": 1,
+    "avg_monthly_value": 3840.0,
+    "avg_setup_fee": 2500.0,
+    "avg_nps": 6.0,
+    "churn_rate": 0.0,
+    "top_segment": "Micro retail & services"
+  },
+  {
+    "bundle_code": "P01x8;P08x6;P19x8;P23x8;P13x1;P15x1",
+    "total_sold": 1,
+    "avg_monthly_value": 24900.0,
+    "avg_setup_fee": 35400.0,
+    "avg_nps": 5.0,
+    "churn_rate": 0.0,
+    "top_segment": "Small multi-site businesses"
+  },
+  {
+    "bundle_code": "P02x11;P09x11;P08x3;P19x11;P23x11;P22x11",
+    "total_sold": 1,
+    "avg_monthly_value": 44460.0,
+    "avg_setup_fee": 74800.0,
+    "avg_nps": 8.0,
+    "churn_rate": 0.0,
+    "top_segment": "Small multi-site businesses"
+  },
+  {
+    "bundle_code": "P02x1;P08x2;P16x14;P09x1",
+    "total_sold": 1,
+    "avg_monthly_value": 5650.0,
+    "avg_setup_fee": 1500.0,
+    "avg_nps": 5.0,
+    "churn_rate": 0.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P02x1;P08x1;P16x10;P20x2;P11x1;P14x1",
+    "total_sold": 1,
+    "avg_monthly_value": 6190.0,
+    "avg_setup_fee": 0.0,
+    "avg_nps": 4.0,
+    "churn_rate": 0.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P02x1;P08x4;P16x6;P17x1;P14x1",
+    "total_sold": 1,
+    "avg_monthly_value": 7980.0,
+    "avg_setup_fee": 0.0,
+    "avg_nps": 8.0,
+    "churn_rate": 0.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P01x1;P07x4;P16x6;P14x1",
+    "total_sold": 1,
+    "avg_monthly_value": 4850.0,
+    "avg_setup_fee": 0.0,
+    "avg_nps": 9.0,
+    "churn_rate": 0.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P01x1;P08x1;P16x4;P20x8;P17x1",
+    "total_sold": 1,
+    "avg_monthly_value": 4040.0,
+    "avg_setup_fee": 0.0,
+    "avg_nps": 7.0,
+    "churn_rate": 0.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P02x1;P07x2;P16x3;P20x3;P17x1;P11x1",
+    "total_sold": 1,
+    "avg_monthly_value": 3880.0,
+    "avg_setup_fee": 0.0,
+    "avg_nps": 6.0,
+    "churn_rate": 1.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P05x1;P08x2;P16x5;P24x7;P23x4;P20x9",
+    "total_sold": 1,
+    "avg_monthly_value": 14990.0,
+    "avg_setup_fee": 38200.0,
+    "avg_nps": 7.0,
+    "churn_rate": 0.0,
+    "top_segment": "Small manufacturers"
+  },
+  {
+    "bundle_code": "P03x1;P08x4;P16x19;P21x1;P23x3",
+    "total_sold": 1,
+    "avg_monthly_value": 13070.0,
+    "avg_setup_fee": 9400.0,
+    "avg_nps": 9.0,
+    "churn_rate": 0.0,
+    "top_segment": "Small manufacturers"
+  },
+  {
+    "bundle_code": "P02x1;P07x2;P16x3;P20x3;P17x1;P12x2;P14x1",
+    "total_sold": 1,
+    "avg_monthly_value": 7560.0,
+    "avg_setup_fee": 4000.0,
+    "avg_nps": 5.0,
+    "churn_rate": 0.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P03x1;P07x1;P16x4;P12x3;P14x1",
+    "total_sold": 1,
+    "avg_monthly_value": 10000.0,
+    "avg_setup_fee": 6000.0,
+    "avg_nps": 6.0,
+    "churn_rate": 0.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P06x1;P08x6;P16x11;P24x9;P11x1",
+    "total_sold": 1,
+    "avg_monthly_value": 35170.0,
+    "avg_setup_fee": 42000.0,
+    "avg_nps": 7.0,
+    "churn_rate": 0.0,
+    "top_segment": "Small manufacturers"
+  },
+  {
+    "bundle_code": "P02x10;P09x10;P08x2;P19x10;P23x20;P13x1;P15x1;P25x8",
+    "total_sold": 1,
+    "avg_monthly_value": 38730.0,
+    "avg_setup_fee": 89000.0,
+    "avg_nps": 6.0,
+    "churn_rate": 0.0,
+    "top_segment": "Small multi-site businesses"
+  },
+  {
+    "bundle_code": "P01x6;P08x3;P19x6;P10x6;P23x12;P13x1;P15x1;P22x6",
+    "total_sold": 1,
+    "avg_monthly_value": 43910.0,
+    "avg_setup_fee": 73600.0,
+    "avg_nps": 8.0,
+    "churn_rate": 0.0,
+    "top_segment": "Small multi-site businesses"
+  },
+  {
+    "bundle_code": "P02x1;P07x4;P16x8;P20x7;P12x2",
+    "total_sold": 1,
+    "avg_monthly_value": 7420.0,
+    "avg_setup_fee": 4000.0,
+    "avg_nps": 4.0,
+    "churn_rate": 0.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P03x1;P08x1;P16x7;P20x8;P11x1;P09x1",
+    "total_sold": 1,
+    "avg_monthly_value": 7950.0,
+    "avg_setup_fee": 1500.0,
+    "avg_nps": 5.0,
+    "churn_rate": 0.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P01x1;P07x1;P19x1;P22x1;P23x1",
+    "total_sold": 1,
+    "avg_monthly_value": 2880.0,
+    "avg_setup_fee": 5300.0,
+    "avg_nps": 7.0,
+    "churn_rate": 0.0,
+    "top_segment": "Micro retail & services"
+  },
+  {
+    "bundle_code": "P05x1;P08x5;P16x5;P23x4;P20x12;P25x5",
+    "total_sold": 1,
+    "avg_monthly_value": 16000.0,
+    "avg_setup_fee": 24700.0,
+    "avg_nps": 6.0,
+    "churn_rate": 0.0,
+    "top_segment": "Small manufacturers"
+  },
+  {
+    "bundle_code": "P03x1;P07x4;P16x9;P09x1",
+    "total_sold": 1,
+    "avg_monthly_value": 7520.0,
+    "avg_setup_fee": 1500.0,
+    "avg_nps": 6.0,
+    "churn_rate": 0.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P03x1;P08x4;P16x6;P21x1;P11x1",
+    "total_sold": 1,
+    "avg_monthly_value": 10600.0,
+    "avg_setup_fee": 4000.0,
+    "avg_nps": 9.0,
+    "churn_rate": 0.0,
+    "top_segment": "Small manufacturers"
+  },
+  {
+    "bundle_code": "P03x1;P08x3;P16x15;P20x5;P17x1;P09x1",
+    "total_sold": 1,
+    "avg_monthly_value": 9940.0,
+    "avg_setup_fee": 1500.0,
+    "avg_nps": 5.0,
+    "churn_rate": 0.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P05x1;P08x5;P16x9;P21x1;P24x12;P20x11",
+    "total_sold": 1,
+    "avg_monthly_value": 22030.0,
+    "avg_setup_fee": 50000.0,
+    "avg_nps": 6.0,
+    "churn_rate": 0.0,
+    "top_segment": "Small manufacturers"
+  },
+  {
+    "bundle_code": "P05x1;P08x2;P16x12;P21x1",
+    "total_sold": 1,
+    "avg_monthly_value": 14590.0,
+    "avg_setup_fee": 14000.0,
+    "avg_nps": 6.0,
+    "churn_rate": 0.0,
+    "top_segment": "Small manufacturers"
+  },
+  {
+    "bundle_code": "P02x1;P08x1;P16x3;P11x1;P09x1",
+    "total_sold": 1,
+    "avg_monthly_value": 3420.0,
+    "avg_setup_fee": 1500.0,
+    "avg_nps": 9.0,
+    "churn_rate": 1.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P05x1;P08x5;P16x5;P23x3",
+    "total_sold": 1,
+    "avg_monthly_value": 14600.0,
+    "avg_setup_fee": 15400.0,
+    "avg_nps": 6.0,
+    "churn_rate": 0.0,
+    "top_segment": "Small manufacturers"
+  },
+  {
+    "bundle_code": "P01x4;P09x4;P08x4;P10x4;P13x1",
+    "total_sold": 1,
+    "avg_monthly_value": 24170.0,
+    "avg_setup_fee": 27000.0,
+    "avg_nps": 6.0,
+    "churn_rate": 0.0,
+    "top_segment": "Small multi-site businesses"
+  },
+  {
+    "bundle_code": "P02x3;P08x4;P10x3;P23x3;P15x1",
+    "total_sold": 1,
+    "avg_monthly_value": 18050.0,
+    "avg_setup_fee": 20400.0,
+    "avg_nps": 5.0,
+    "churn_rate": 0.0,
+    "top_segment": "Small multi-site businesses"
+  },
+  {
+    "bundle_code": "P03x1;P08x6;P16x5;P21x1;P24x12;P20x8;P25x3",
+    "total_sold": 1,
+    "avg_monthly_value": 15310.0,
+    "avg_setup_fee": 44500.0,
+    "avg_nps": 7.0,
+    "churn_rate": 0.0,
+    "top_segment": "Small manufacturers"
+  },
+  {
+    "bundle_code": "P04x1;P07x2;P19x1;P23x1",
+    "total_sold": 1,
+    "avg_monthly_value": 2720.0,
+    "avg_setup_fee": 4300.0,
+    "avg_nps": 9.0,
+    "churn_rate": 0.0,
+    "top_segment": "Micro retail & services"
+  },
+  {
+    "bundle_code": "P01x4;P08x5;P13x1",
+    "total_sold": 1,
+    "avg_monthly_value": 9940.0,
+    "avg_setup_fee": 1000.0,
+    "avg_nps": 5.0,
+    "churn_rate": 0.0,
+    "top_segment": "Small multi-site businesses"
+  },
+  {
+    "bundle_code": "P03x1;P08x5;P16x6;P20x7",
+    "total_sold": 1,
+    "avg_monthly_value": 9770.0,
+    "avg_setup_fee": 0.0,
+    "avg_nps": 6.0,
+    "churn_rate": 0.0,
+    "top_segment": "Small manufacturers"
+  },
+  {
+    "bundle_code": "P01x1;P07x2;P18x1",
+    "total_sold": 1,
+    "avg_monthly_value": 2200.0,
+    "avg_setup_fee": 0.0,
+    "avg_nps": 7.0,
+    "churn_rate": 0.0,
+    "top_segment": "Micro retail & services"
+  },
+  {
+    "bundle_code": "P03x1;P08x3;P16x13;P20x2;P11x1",
+    "total_sold": 1,
+    "avg_monthly_value": 8570.0,
+    "avg_setup_fee": 0.0,
+    "avg_nps": 7.0,
+    "churn_rate": 1.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P02x10;P08x4;P19x10;P23x20;P13x1;P22x10",
+    "total_sold": 1,
+    "avg_monthly_value": 41870.0,
+    "avg_setup_fee": 72000.0,
+    "avg_nps": 8.0,
+    "churn_rate": 0.0,
+    "top_segment": "Small multi-site businesses"
+  },
+  {
+    "bundle_code": "P01x1;P07x2;P16x7;P17x1;P09x1",
+    "total_sold": 1,
+    "avg_monthly_value": 3830.0,
+    "avg_setup_fee": 1500.0,
+    "avg_nps": 10.0,
+    "churn_rate": 0.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P02x1;P07x3;P16x7;P20x10;P17x1;P14x1",
+    "total_sold": 1,
+    "avg_monthly_value": 7070.0,
+    "avg_setup_fee": 0.0,
+    "avg_nps": 6.0,
+    "churn_rate": 0.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P05x1;P08x6;P16x17;P21x1;P23x4",
+    "total_sold": 1,
+    "avg_monthly_value": 18400.0,
+    "avg_setup_fee": 21200.0,
+    "avg_nps": 5.0,
+    "churn_rate": 1.0,
+    "top_segment": "Small manufacturers"
+  },
+  {
+    "bundle_code": "P01x1;P07x2;P19x1;P22x1;P23x1;P15x1;P18x1",
+    "total_sold": 1,
+    "avg_monthly_value": 5130.0,
+    "avg_setup_fee": 5300.0,
+    "avg_nps": 4.0,
+    "churn_rate": 1.0,
+    "top_segment": "Micro retail & services"
+  },
+  {
+    "bundle_code": "P01x6;P09x6;P08x6;P25x8",
+    "total_sold": 1,
+    "avg_monthly_value": 15980.0,
+    "avg_setup_fee": 21000.0,
+    "avg_nps": 10.0,
+    "churn_rate": 1.0,
+    "top_segment": "Small multi-site businesses"
+  },
+  {
+    "bundle_code": "P01x12;P09x12;P08x5;P15x1;P22x12",
+    "total_sold": 1,
+    "avg_monthly_value": 29840.0,
+    "avg_setup_fee": 30000.0,
+    "avg_nps": 4.0,
+    "churn_rate": 0.0,
+    "top_segment": "Small multi-site businesses"
+  },
+  {
+    "bundle_code": "P01x1;P07x2;P16x9;P17x1;P09x1",
+    "total_sold": 1,
+    "avg_monthly_value": 4100.0,
+    "avg_setup_fee": 1500.0,
+    "avg_nps": 7.0,
+    "churn_rate": 0.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P01x1;P07x2;P16x8;P20x8",
+    "total_sold": 1,
+    "avg_monthly_value": 3810.0,
+    "avg_setup_fee": 0.0,
+    "avg_nps": 8.0,
+    "churn_rate": 0.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P02x11;P08x5;P19x11;P23x22;P13x1;P15x1;P25x7",
+    "total_sold": 1,
+    "avg_monthly_value": 39890.0,
+    "avg_setup_fee": 78600.0,
+    "avg_nps": 6.0,
+    "churn_rate": 0.0,
+    "top_segment": "Small multi-site businesses"
+  },
+  {
+    "bundle_code": "P02x1;P07x3;P16x7",
+    "total_sold": 1,
+    "avg_monthly_value": 3460.0,
+    "avg_setup_fee": 0.0,
+    "avg_nps": 6.0,
+    "churn_rate": 0.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P01x3;P09x3;P08x6;P15x1",
+    "total_sold": 1,
+    "avg_monthly_value": 9860.0,
+    "avg_setup_fee": 4500.0,
+    "avg_nps": 5.0,
+    "churn_rate": 0.0,
+    "top_segment": "Small multi-site businesses"
+  },
+  {
+    "bundle_code": "P01x1;P07x4;P16x9;P20x8;P17x1;P12x3;P09x1",
+    "total_sold": 1,
+    "avg_monthly_value": 9720.0,
+    "avg_setup_fee": 7500.0,
+    "avg_nps": 8.0,
+    "churn_rate": 0.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P02x9;P08x5;P10x9;P23x9;P13x1",
+    "total_sold": 1,
+    "avg_monthly_value": 46280.0,
+    "avg_setup_fee": 62200.0,
+    "avg_nps": 8.0,
+    "churn_rate": 0.0,
+    "top_segment": "Small multi-site businesses"
+  },
+  {
+    "bundle_code": "P03x1;P08x4;P16x7;P20x8;P12x2;P11x1",
+    "total_sold": 1,
+    "avg_monthly_value": 11520.0,
+    "avg_setup_fee": 4000.0,
+    "avg_nps": 10.0,
+    "churn_rate": 0.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P01x7;P09x7;P08x6;P19x7;P15x1",
+    "total_sold": 1,
+    "avg_monthly_value": 21150.0,
+    "avg_setup_fee": 28000.0,
+    "avg_nps": 5.0,
+    "churn_rate": 0.0,
+    "top_segment": "Small multi-site businesses"
+  },
+  {
+    "bundle_code": "P02x12;P09x12;P08x5;P25x3",
+    "total_sold": 1,
+    "avg_monthly_value": 30460.0,
+    "avg_setup_fee": 22500.0,
+    "avg_nps": 9.0,
+    "churn_rate": 0.0,
+    "top_segment": "Small multi-site businesses"
+  },
+  {
+    "bundle_code": "P03x1;P07x4;P16x4;P12x4",
+    "total_sold": 1,
+    "avg_monthly_value": 12110.0,
+    "avg_setup_fee": 8000.0,
+    "avg_nps": 9.0,
+    "churn_rate": 0.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P01x1;P07x1;P19x1;P22x1;P18x1",
+    "total_sold": 1,
+    "avg_monthly_value": 2970.0,
+    "avg_setup_fee": 3500.0,
+    "avg_nps": 5.0,
+    "churn_rate": 0.0,
+    "top_segment": "Micro retail & services"
+  },
+  {
+    "bundle_code": "P02x1;P07x2;P16x5;P17x1",
+    "total_sold": 1,
+    "avg_monthly_value": 3480.0,
+    "avg_setup_fee": 0.0,
+    "avg_nps": 6.0,
+    "churn_rate": 0.0,
+    "top_segment": "Professional offices"
+  },
+  {
+    "bundle_code": "P01x1;P07x1;P19x1;P18x1",
+    "total_sold": 1,
+    "avg_monthly_value": 2670.0,
+    "avg_setup_fee": 2500.0,
+    "avg_nps": 7.0,
+    "churn_rate": 0.0,
+    "top_segment": "Micro retail & services"
+  },
+  {
+    "bundle_code": "P05x1;P08x2;P16x19;P11x1",
+    "total_sold": 1,
+    "avg_monthly_value": 14230.0,
+    "avg_setup_fee": 10000.0,
+    "avg_nps": 7.0,
+    "churn_rate": 0.0,
+    "top_segment": "Small manufacturers"
+  },
+  {
+    "bundle_code": "P01x1;P07x3;P16x13;P17x1",
+    "total_sold": 1,
+    "avg_monthly_value": 4420.0,
+    "avg_setup_fee": 0.0,
+    "avg_nps": 7.0,
+    "churn_rate": 0.0,
+    "top_segment": "Professional offices"
+  }
+]
