@@ -63,7 +63,7 @@ from kyc_verification.smart_kyc_service import smart_kyc_service
 from kyc_verification.smart_kyc_verifier import smart_kyc_verifier, find_applicant_files
 from order_tracking.order_lifecycle import order_lifecycle_service
 from database.db_client import db_client
-from auth.supabase_auth import get_current_user, get_optional_user
+from auth.supabase_auth import get_current_user, get_optional_user, require_admin, supabase_auth_service
 
 app = FastAPI(
     title="Airtel Business Customer Discovery & Smart KYC Platform",
@@ -192,7 +192,7 @@ async def chat_endpoint(request: ChatRequest, user: Optional[Dict[str, Any]] = D
             }
             result["escalation"] = esc_obj
 
-            # Persist directly into Neon Cloud PostgreSQL ai_escalations table
+            # Persist directly into Supabase Cloud PostgreSQL ai_escalations table
             db_client.save_ai_escalation(esc_obj)
 
             # Record customer decision audit log with Foreign Key link to this escalation
@@ -405,7 +405,7 @@ async def clear_user_all_info(
     if session_id:
         session_memory.reset(session_id)
 
-    # Purge from Neon PostgreSQL
+    # Purge from Supabase PostgreSQL
     success = db_client.clear_user_all_data(user_id=user_id, session_id=session_id)
 
     return {
@@ -673,7 +673,7 @@ async def add_customer_need_endpoint(
     user: Optional[Dict[str, Any]] = Depends(get_optional_user)
 ):
     """
-    Persists customer accepted need for their user_id / session into Neon PostgreSQL.
+    Persists customer accepted need for their user_id / session into Supabase PostgreSQL.
     Also updates session schema and user profile in database.
     """
     user_id = user.get("sub") or user.get("id") if user else payload.get("user_id") or "guest-user"
@@ -685,7 +685,7 @@ async def add_customer_need_endpoint(
     if not need_name:
         raise HTTPException(status_code=400, detail="need_name is required")
 
-    # 1. Persist directly to customer_needs table in Neon Postgres
+    # 1. Persist directly to customer_needs table in Supabase Postgres
     saved_need = db_client.add_customer_need(
         user_id=user_id,
         need_name=need_name,
@@ -704,7 +704,7 @@ async def add_customer_need_endpoint(
         session.schema = session.schema.merge_updates({"needs": current_needs})
         session_schema_dict = session.schema.to_dict()
 
-    # 3. Update user_profiles table with updated schema in Neon Postgres
+    # 3. Update user_profiles table with updated schema in Supabase Postgres
     user_profile = db_client.get_user_profile(user_id)
     existing_schema = user_profile.get("customer_schema", {})
     existing_needs = existing_schema.get("needs", [])
@@ -733,7 +733,7 @@ async def get_customer_needs_endpoint(
     user_id: Optional[str] = None,
     user: Optional[Dict[str, Any]] = Depends(get_optional_user)
 ):
-    """Retrieves all accepted needs for a user from Neon PostgreSQL."""
+    """Retrieves all accepted needs for a user from Supabase PostgreSQL."""
     uid = user.get("sub") or user.get("id") if user else user_id or "guest-user"
     needs = db_client.get_customer_needs(uid)
     return {"user_id": uid, "count": len(needs), "needs": needs}
@@ -775,26 +775,10 @@ async def serve_database_explorer():
 
 @app.get("/api/database/table/{name}")
 async def get_table_data(name: str):
-    """Returns rows from a specific database table for the table visualizer."""
+    """Returns rows from a specific database table in Supabase for the table visualizer."""
     table = name.lower()
-    if table == "product_catalogue":
-        rows = db_client.get_products()
-    elif table == "city_tier_mapping":
-        rows = list(db_client.city_tiers.values())
-    elif table == "gstin_registry":
-        rows = list(db_client.gstin_registry.values())[:500]
-    elif table == "udyam_registry":
-        rows = list(db_client.udyam_registry.values())[:500]
-    elif table == "smb_leads":
-        rows = list(db_client.leads.values())[:500]
-    elif table == "bundle_statistics":
-        rows = db_client.bundle_statistics
-    elif table == "product_statistics":
-        rows = db_client.product_statistics
-    else:
-        rows = []
-
-    return {"count": len(rows), "source": "In-Memory Database Store", "rows": rows}
+    rows = db_client.get_table_rows(table, limit=500)
+    return {"count": len(rows), "source": "Supabase Cloud Database", "rows": rows}
 
 
 # =============================================================================
@@ -900,7 +884,7 @@ async def verify_uploaded_kyc(
         result = smart_kyc_verifier.verify_customer(applicant_id, saved_files, user_inputs=user_inputs)
         result["s3_encrypted_storage"] = s3_records
 
-        # Also persist to Neon PostgreSQL encrypted kyc_records table
+        # Also persist to Supabase PostgreSQL encrypted kyc_records table
         try:
             from kyc_verification.secure_vault import secure_vault
             ext_data = result.get("extracted_data", {})
@@ -1010,13 +994,13 @@ async def get_kyc_evaluation_report():
 @app.get("/api/kyc/records")
 async def get_kyc_records(session_id: Optional[str] = None):
     """
-    Returns encrypted KYC verification records directly from the Neon Cloud PostgreSQL database.
+    Returns encrypted KYC verification records directly from the Supabase Cloud PostgreSQL database.
     Demonstrates DPDP Act 2023 compliance with AES-256-GCM ciphertext, unique IV, SHA-256 hash, and masked PII.
     """
     records = db_client.get_kyc_records(session_id=session_id)
     return {
         "count": len(records),
-        "source": "Neon Serverless Cloud PostgreSQL 18.6 (AWS ap-southeast-1, Fully Scalable)",
+        "source": "Supabase Cloud PostgreSQL (Exclusive Database, DPDP Act 2023 Compliant)",
         "encryption_standard": "AES-256-GCM (DPDP Act 2023 Compliant)",
         "records": records
     }
@@ -1056,12 +1040,12 @@ async def get_ai_telemetry_logs(limit: int = 40):
 @app.get("/api/kyc/consents")
 async def get_kyc_consents(session_id: Optional[str] = None):
     """
-    Returns customer consent logs directly from the Neon Cloud PostgreSQL database per DPDP Act 2023.
+    Returns customer consent logs directly from the Supabase Cloud PostgreSQL database per DPDP Act 2023.
     """
     consents = db_client.get_dpdp_consents(session_id=session_id)
     return {
         "count": len(consents),
-        "source": "Neon Serverless Cloud PostgreSQL 18.6 (AWS ap-southeast-1, Fully Scalable)",
+        "source": "Supabase Cloud PostgreSQL (dpdp_consent_logs table)",
         "consents": consents
     }
 
@@ -1123,7 +1107,7 @@ async def get_ai_escalations():
     escalations = db_client.get_all_ai_escalations()
     return {
         "count": len(escalations),
-        "source": "Neon Cloud PostgreSQL (ai_escalations table)",
+        "source": "Supabase Cloud PostgreSQL (ai_escalations table)",
         "escalations": escalations
     }
 
@@ -1137,7 +1121,7 @@ async def get_customer_decisions(limit: int = 50):
     decisions = db_client.get_customer_decisions(limit=limit)
     return {
         "count": len(decisions),
-        "source": "Neon Cloud PostgreSQL (customer_decisions table with FK to ai_escalations)",
+        "source": "Supabase Cloud PostgreSQL (customer_decisions table with FK to ai_escalations)",
         "decisions": decisions
     }
 
@@ -1145,8 +1129,14 @@ async def get_customer_decisions(limit: int = 50):
 @app.post("/api/sales/orders/{order_id}/status")
 @app.post("/api/orders/{order_id}/status")
 @app.patch("/api/orders/{order_id}/status")
-async def update_order_status(order_id: str, payload: Dict[str, Any]):
-    """Allows sales agent or admin to update milestones or toggle order status in DB."""
+async def update_order_status(
+    order_id: str,
+    payload: Dict[str, Any],
+    user: Optional[Dict[str, Any]] = Depends(get_optional_user)
+):
+    """Allows sales agent or admin to update milestones or toggle order status in Supabase."""
+    if user and user.get("role") != "admin":
+        raise HTTPException(status_code=403, detail="Admin permissions required to modify order status.")
     updated = order_lifecycle_service.update_order_stage(order_id, payload)
     if not updated:
         raise HTTPException(status_code=404, detail="Order not found")
@@ -1154,8 +1144,13 @@ async def update_order_status(order_id: str, payload: Dict[str, Any]):
 
 
 @app.post("/api/admin/messages/send")
-async def send_admin_message(payload: Dict[str, Any]):
+async def send_admin_message(
+    payload: Dict[str, Any],
+    user: Optional[Dict[str, Any]] = Depends(get_optional_user)
+):
     """Allows Admin to send custom message, bundle recommendation, or response to user."""
+    if user and user.get("role") != "admin":
+        raise HTTPException(status_code=403, detail="Admin permissions required to send admin messages.")
     session_id = payload.get("session_id") or "default_session"
     customer_name = payload.get("customer_name") or "Valued Customer"
     msg_text = payload.get("message") or ""
@@ -1175,41 +1170,71 @@ async def get_user_messages(session_id: str):
     return {"messages": msgs}
 
 
+@app.post("/api/auth/register")
+async def register(payload: Dict[str, Any]):
+    """Registers a new user in Supabase Auth."""
+    email = payload.get("email")
+    password = payload.get("password")
+    name = payload.get("name", "Airtel Customer")
+    role = payload.get("role", "user")
+    if not email or not password:
+        raise HTTPException(status_code=400, detail="Email and password are required for registration.")
+    return supabase_auth_service.sign_up(email, password, metadata={"name": name, "role": role})
+
+
 @app.post("/api/auth/login")
 async def login(payload: Dict[str, Any]):
     """
-    Standard JWT token generator for role-based sessions (User or Admin).
-    Signs token with SUPABASE_JWT_SECRET when configured.
+    Supabase Auth login endpoint.
+    Accepts email and password, or role for quick demonstration sessions.
+    Validates credentials strictly through Supabase Auth.
     """
-    import jwt
-    import time
-
+    email = payload.get("email")
+    password = payload.get("password")
     role = payload.get("role", "user").lower()
-    email = payload.get("email", "user@airtel.com")
-    name = payload.get("name", "Airtel User" if role == "user" else "Airtel Operations Admin")
-    user_id = payload.get("user_id") or f"usr-{os.urandom(6).hex()}"
-    secret = os.getenv("SUPABASE_JWT_SECRET", "udyam-digital-secret-key-2026")
 
-    token_payload = {
-        "sub": user_id,
-        "id": user_id,
-        "email": email,
-        "role": "authenticated",
-        "aud": "authenticated",
-        "app_metadata": {"role": role, "name": name},
-        "exp": int(time.time()) + 86400 * 7  # 7 days
-    }
-    token = jwt.encode(token_payload, secret, algorithm="HS256")
-    return {
-        "success": True,
-        "token": token,
-        "user": {
-            "id": user_id,
-            "email": email,
-            "name": name,
-            "role": role
-        }
-    }
+    if email and password:
+        return supabase_auth_service.sign_in(email, password)
+
+    # Demo role fallback credentials
+    demo_email = email or ("admin@airtel.com" if role == "admin" else "user@airtel.com")
+    demo_pwd = password or "Password123!"
+    try:
+        return supabase_auth_service.sign_in(demo_email, demo_pwd)
+    except Exception:
+        # Auto-provision demo account if not exists
+        try:
+            supabase_auth_service.sign_up(
+                demo_email,
+                demo_pwd,
+                metadata={"role": role, "name": "Airtel Administrator" if role == "admin" else "Airtel User"}
+            )
+            return supabase_auth_service.sign_in(demo_email, demo_pwd)
+        except Exception:
+            pass
+
+    return supabase_auth_service.sign_in(demo_email, demo_pwd)
+
+
+@app.post("/api/auth/logout")
+async def logout(user: Optional[Dict[str, Any]] = Depends(get_optional_user)):
+    """Logs user session out of Supabase Auth."""
+    return supabase_auth_service.sign_out()
+
+
+@app.get("/api/auth/me")
+async def get_current_user_profile(user: Dict[str, Any] = Depends(get_current_user)):
+    """Returns validated Supabase Auth current user identity and roles."""
+    return {"user": user}
+
+
+@app.post("/api/auth/reset-password")
+async def reset_password(payload: Dict[str, Any]):
+    """Triggers password reset through Supabase Auth."""
+    email = payload.get("email")
+    if not email:
+        raise HTTPException(status_code=400, detail="Email is required.")
+    return supabase_auth_service.reset_password(email)
 
 
 # =============================================================================

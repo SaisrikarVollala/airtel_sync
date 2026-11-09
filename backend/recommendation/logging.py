@@ -5,19 +5,19 @@ Generates compliant, privacy-preserving rec_log entries:
 - Version timestamps & catalogue hashes
 - Candidates considered with scores
 - Explanations and reason codes
+- Persistent storage in Supabase recommendation_logs table
 """
 
 import hashlib
 import json
+import uuid
 from datetime import datetime
 from typing import Dict, Any, List
 from kyc_verification.secure_vault import secure_vault
+from database.db_client import db_client
 
 
 class RecommendationLogger:
-    def __init__(self):
-        self.logs: List[Dict[str, Any]] = []
-
     def log_recommendation(
         self,
         profile: Dict[str, Any],
@@ -27,7 +27,7 @@ class RecommendationLogger:
         single_option_reason: str = None
     ) -> Dict[str, Any]:
         """
-        Records structured audit record for the recommendation event.
+        Records structured audit record for the recommendation event into Supabase.
         """
         # Mask identifiers in profile
         masked_profile = {
@@ -46,8 +46,9 @@ class RecommendationLogger:
         cat_str = "catalogue_25_products_v2"
         cat_hash = hashlib.sha256(cat_str.encode()).hexdigest()[:8]
 
+        log_id = f"REC-{datetime.now().strftime('%Y%m%d%H%M%S')}-{uuid.uuid4().hex[:6]}"
         log_entry = {
-            "log_id": f"REC-{datetime.now().strftime('%Y%m%d%H%M%S')}-{len(self.logs)+1}",
+            "log_id": log_id,
             "timestamp": datetime.now().isoformat(),
             "profile_snapshot": masked_profile,
             "catalogue_version": cat_hash,
@@ -80,12 +81,16 @@ class RecommendationLogger:
             "single_option_reason": single_option_reason
         }
 
-        self.logs.append(log_entry)
+        try:
+            db_client.save_recommendation_log(log_entry)
+        except Exception as e:
+            print(f"Warning: Failed to save recommendation log to Supabase: {e}")
+
         return log_entry
 
     def get_recent_logs(self, limit: int = 50) -> List[Dict[str, Any]]:
-        return self.logs[-limit:]
+        """Queries persistent recommendation logs from Supabase."""
+        return db_client.get_recommendation_logs(limit=limit)
 
 
 recommendation_logger = RecommendationLogger()
-

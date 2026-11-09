@@ -4,8 +4,8 @@
 
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](backend/)
 [![FastAPI](https://img.shields.io/badge/Framework-FastAPI-009688.svg)](https://fastapi.tiangolo.com/)
-[![Database](https://img.shields.io/badge/Database-PostgreSQL%20%2F%20Neon-4169e1.svg)](https://neon.tech/)
-[![Authentication](https://img.shields.io/badge/Auth-Supabase%20%2B%20JWT-3ECF8E.svg)](https://supabase.com/)
+[![Database](https://img.shields.io/badge/Database-Supabase%20PostgreSQL-3ECF8E.svg)](https://supabase.com/)
+[![Authentication](https://img.shields.io/badge/Auth-Supabase%20Auth-3ECF8E.svg)](https://supabase.com/)
 [![Compliance](https://img.shields.io/badge/Compliance-DPDP%20Act%202023-purple.svg)](docs/)
 
 ---
@@ -24,12 +24,12 @@ Project Udyam Digital is an AI-powered enterprise telecommunications advisory an
 
 ## 2. Technologies Used
 
-- **Backend**: Python 3.10+ with FastAPI, Pydantic v2, PyJWT, psycopg2, RapidFuzz, Cryptography, Pandas, OpenCV.
+- **Backend**: Python 3.10+ with FastAPI, Pydantic v2, PyJWT, Cryptography, Pandas, OpenCV, RapidFuzz.
 - **Frontend**: 
   - Production Single-Page Application (HTML5, Tailwind CSS, JavaScript) served natively by FastAPI.
   - Modern TanStack Start / React application located in `frontend/` (Vite, React 19, Tailwind CSS v4, Lucide).
-- **Database**: Cloud PostgreSQL (Neon Serverless PostgreSQL 18.6) with fallback in-memory caching.
-- **Authentication**: JWT authentication with Supabase Auth integration and role-based access control.
+- **Database**: Supabase PostgreSQL (Exclusive persistence layer) with Row Level Security (RLS).
+- **Authentication**: Supabase Auth (Exclusive authentication provider) with token validation and role-based access control.
 - **AI Integrations**: Sarvam AI (`sarvam-105b-conversations`, `saaras:v3`) and Google Gemini Vision (`gemini-2.5-flash`).
 
 ---
@@ -40,15 +40,16 @@ Project Udyam Digital is an AI-powered enterprise telecommunications advisory an
 .
 ├── backend/
 │   ├── agent/                 # 11-Stage Conversational AI & Discovery Pipeline
-│   ├── auth/                  # Supabase Auth & JWT token verification
+│   ├── auth/                  # Supabase Auth service & token validation
 │   ├── config/                # Telecom thresholds, weights, columns, and taxonomies
 │   ├── data/                  # City tier mappings, business taxonomies, and stats
-│   ├── database/              # Neon PostgreSQL client, connection pooling, and migrations
+│   ├── database/              # Supabase database client and SQL migrations
 │   ├── data_preprocessing/    # City tier classifier, business segment mapper, and ETL
 │   ├── kyc_verification/      # Smart Digital KYC engine (Mod-36 checksum, AES-256 vault)
 │   ├── order_tracking/        # Order Management System (OMS) & milestone lifecycle
 │   ├── recommendation/        # 14-Stage Recommendation Engine & add-on toggles
 │   ├── schema/                # Pydantic v2 data models & API schemas
+│   ├── scripts/               # Supabase database seeding scripts
 │   ├── YTL_TrackA_Udyam_Digital_Data/ # Official MSME registries & KYC documents
 │   └── main.py                # Main FastAPI application server
 ├── frontend/                  # React & SPA User Interface
@@ -58,7 +59,6 @@ Project Udyam Digital is an AI-powered enterprise telecommunications advisory an
 ├── docs/                      # Technical specifications and architectural documentation
 ├── .env.example               # Template for required environment variables
 ├── requirements.txt           # Python dependencies manifest
-├── run.py                     # Native root application launcher
 └── README.md                  # Project documentation
 ```
 
@@ -70,7 +70,7 @@ Project Udyam Digital is an AI-powered enterprise telecommunications advisory an
 
 ```bash
 git clone <repository-url>
-cd project-udyam-digital-main
+cd airtel_sync
 ```
 
 ### Step 2: Install Dependencies
@@ -102,24 +102,17 @@ Key environment variables:
 | Variable | Description | Required? |
 |---|---|---|
 | `PORT` | Application server port (default: `8000`) | Optional |
-| `DATABASE_URL` | Neon Serverless PostgreSQL connection URL | Recommended (preconfigured in `.env.example`) |
+| `SUPABASE_URL` | Supabase Project URL (`https://<project-ref>.supabase.co`) | Required |
+| `SUPABASE_ANON_KEY` | Supabase Publishable / Anon Key | Required |
+| `SUPABASE_JWT_SECRET` | Supabase JWT Secret for token verification | Required |
 | `SARVAM_API_KEY` | Sarvam AI API Key for Indic LLM chat & Speech-to-Text | Required for AI chat & STT |
-| `GEMINI_API_KEY` | Google Gemini API Key for Vision KYC OCR | Required for Vision OCR |
-| `SUPABASE_JWT_SECRET`| JWT Secret Key for token validation | Optional (uses internal default if omitted) |
-| `AWS_ENDPOINT_URL_S3`| S3-compatible object storage endpoint for KYC vaults | Preconfigured |
-
-> **Note on AI API Keys**: If `SARVAM_API_KEY` is not set, calls to `/api/chat` or `/api/voice` explicitly return a clear configuration error identifying the missing key. Fake mock responses are not generated.
+| `ADMIN_EMAILS` | Comma-separated list of authorized administrator emails | Optional |
 
 ---
 
 ## 6. Running the Application
 
-### Option A: Using the Root Launcher (Recommended)
-```bash
-python run.py
-```
-
-### Option B: Using Uvicorn Directly
+### Using Uvicorn Directly
 ```bash
 cd backend
 python -m uvicorn main:app --host 0.0.0.0 --port 8000 --reload
@@ -134,10 +127,3 @@ Once running, navigate to:
 - **Interactive OpenAPI / Swagger Docs**: [http://localhost:8000/docs](http://localhost:8000/docs)
 - **Database Table Visualizer**: [http://localhost:8000/database](http://localhost:8000/database)
 - **System Health Check**: [http://localhost:8000/health](http://localhost:8000/health)
-
-### Frontend Build & Linting (Optional)
-```bash
-cd frontend
-npm run lint
-npm run build
-```
