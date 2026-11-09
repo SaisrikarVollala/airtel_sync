@@ -3,14 +3,14 @@
 ORDER TRACKING: Order Lifecycle & Sales Operations (order_lifecycle.py)
 =============================================================================
 Manages the post-discovery commercial journey:
-- Persistent SQL Database storage via db_client
+- Persistent Supabase Cloud Database storage via db_client
 - Dynamic SLA Contract Generation (99.5% for retail vs 99.9% for multi-branch)
 - 4-Milestone Order Tracker:
   1. Pending
   2. Order Confirm (KYC Approved)
   3. Packed and Processed (Hardware & Splicing Dispatched)
   4. Delivered & Activated
-- Admin / Operations message dispatch persisted to SQL database
+- Admin / Operations message dispatch persisted to Supabase database
 =============================================================================
 """
 
@@ -22,67 +22,69 @@ from database.db_client import db_client
 
 class OrderLifecycleService:
     def __init__(self):
-        self.rejections: List[Dict[str, Any]] = []
         self._seed_initial_orders()
 
     def _seed_initial_orders(self):
-        """Seeds default historical order S00060 into SQL database if not present."""
-        if not db_client.get_order("S00060"):
-            s60_order = {
-                "order_id": "S00060",
-                "session_id": "session_s60",
-                "customer_name": "Balaji Dental Care LLP",
-                "business_type": "Healthcare & Dental Clinic",
-                "status": "Order Confirm",
-                "current_stage_index": 1,
-                "bundle_code": "BUNDLE-PRIMARY",
-                "bundle_name": "Micro Retail & Services Growth Suite",
-                "monthly_cost": 2499.0,
-                "contract_months": 12,
-                "contract_terms": {
-                    "sla_uptime": "99.5% Standard Commercial Uptime SLA",
-                    "mttr_hours": 8,
-                    "billing_cycle": "Monthly Advance",
-                    "notice_period_days": 30
-                },
-                "milestones": [
-                    {
-                        "stage": "PENDING",
-                        "title": "Pending",
-                        "description": "Your order is in review & verification",
-                        "date_str": "Tue, May 21, 2024, 6:44:14 PM",
-                        "completed": True,
-                        "icon": "pending"
+        """Seeds default historical order S00060 into Supabase database if not present."""
+        try:
+            if not db_client.get_order("S00060"):
+                s60_order = {
+                    "order_id": "S00060",
+                    "session_id": "session_s60",
+                    "customer_name": "Balaji Dental Care LLP",
+                    "business_type": "Healthcare & Dental Clinic",
+                    "status": "Order Confirm",
+                    "current_stage_index": 1,
+                    "bundle_code": "BUNDLE-PRIMARY",
+                    "bundle_name": "Micro Retail & Services Growth Suite",
+                    "monthly_cost": 2499.0,
+                    "contract_months": 12,
+                    "contract_terms": {
+                        "sla_uptime": "99.5% Standard Commercial Uptime SLA",
+                        "mttr_hours": 8,
+                        "billing_cycle": "Monthly Advance",
+                        "notice_period_days": 30
                     },
-                    {
-                        "stage": "CONFIRMED",
-                        "title": "Order Confirm",
-                        "description": "Your order has been verified & confirmed",
-                        "date_str": "Thu, May 30, 2024, 9:42:58 AM",
-                        "completed": True,
-                        "icon": "confirm"
-                    },
-                    {
-                        "stage": "PACKED",
-                        "title": "Packed and Processed",
-                        "description": "Hardware router & SIM kit dispatched",
-                        "date_str": "Fri, May 31, 2024, 9:43:00 AM",
-                        "completed": False,
-                        "icon": "packed"
-                    },
-                    {
-                        "stage": "DELIVERED",
-                        "title": "Delivered",
-                        "description": "Expected Delivery Date: Tue, Jun 04, 2024",
-                        "date_str": "Expected: Jun 04, 2024",
-                        "completed": False,
-                        "icon": "delivered"
-                    }
-                ],
-                "created_at": "Tue, May 21, 2024, 6:44:14 PM",
-                "updated_at": "Thu, May 30, 2024, 9:42:58 AM"
-            }
-            db_client.save_order(s60_order)
+                    "milestones": [
+                        {
+                            "stage": "PENDING",
+                            "title": "Pending",
+                            "description": "Your order is in review & verification",
+                            "date_str": "Tue, May 21, 2024, 6:44:14 PM",
+                            "completed": True,
+                            "icon": "pending"
+                        },
+                        {
+                            "stage": "CONFIRMED",
+                            "title": "Order Confirm",
+                            "description": "Your order has been verified & confirmed",
+                            "date_str": "Thu, May 30, 2024, 9:42:58 AM",
+                            "completed": True,
+                            "icon": "confirm"
+                        },
+                        {
+                            "stage": "PACKED",
+                            "title": "Packed and Processed",
+                            "description": "Hardware router & SIM kit dispatched",
+                            "date_str": "Fri, May 31, 2024, 9:43:00 AM",
+                            "completed": False,
+                            "icon": "packed"
+                        },
+                        {
+                            "stage": "DELIVERED",
+                            "title": "Delivered",
+                            "description": "Expected Delivery Date: Tue, Jun 04, 2024",
+                            "date_str": "Expected: Jun 04, 2024",
+                            "completed": False,
+                            "icon": "delivered"
+                        }
+                    ],
+                    "created_at": "Tue, May 21, 2024, 6:44:14 PM",
+                    "updated_at": "Thu, May 30, 2024, 9:42:58 AM"
+                }
+                db_client.save_order(s60_order)
+        except Exception as e:
+            print(f"Notice: Order S00060 seeding deferred (Supabase schema pending): {e}")
 
     def accept_quote(
         self,
@@ -199,19 +201,10 @@ class OrderLifecycleService:
         customer_feedback: str = "",
         budget_offered: Optional[float] = None
     ) -> Dict[str, Any]:
-        """Records structured rejection feedback in memory and Cloud PostgreSQL."""
-        record = {
-            "rejection_id": f"REJ-{uuid.uuid4().hex[:6].upper()}",
-            "session_id": session_id,
-            "bundle_code": bundle_code,
-            "rejection_reason": rejection_reason,
-            "customer_feedback": customer_feedback,
-            "budget_offered": budget_offered,
-            "created_at": datetime.now().isoformat()
-        }
-        self.rejections.append(record)
+        """Records structured rejection feedback directly in Supabase customer_decisions."""
+        record_id = f"REJ-{uuid.uuid4().hex[:6].upper()}"
 
-        # Record customer decision as REJECTED in PostgreSQL analytics table
+        # Record customer decision as REJECTED in Supabase customer_decisions table
         db_client.save_customer_decision(
             session_id=session_id,
             customer_name="Customer",
@@ -221,77 +214,39 @@ class OrderLifecycleService:
             customer_feedback=customer_feedback,
             budget_offered=budget_offered,
             ai_response_insights={
-                "rejection_id": record["rejection_id"],
+                "rejection_id": record_id,
                 "reason": rejection_reason,
                 "feedback": customer_feedback,
                 "budget_offered": budget_offered
             }
         )
 
-        return {"success": True, "record": record}
+        return {
+            "success": True,
+            "record": {
+                "rejection_id": record_id,
+                "session_id": session_id,
+                "bundle_code": bundle_code,
+                "rejection_reason": rejection_reason,
+                "customer_feedback": customer_feedback,
+                "budget_offered": budget_offered
+            }
+        }
 
     def get_order(self, order_id: str) -> Optional[Dict[str, Any]]:
-        """Retrieves order tracking details directly from the SQL database."""
+        """Retrieves order tracking details directly from Supabase."""
         return db_client.get_order(order_id)
 
     def get_all_orders(self) -> List[Dict[str, Any]]:
-        """Returns all placed customer orders queried directly from the SQL database."""
+        """Returns all placed customer orders queried directly from Supabase."""
         return db_client.get_all_orders()
 
     def get_sales_dashboard(self) -> Dict[str, Any]:
-        """Returns aggregated sales metrics, active AI escalations, and orders."""
+        """Returns aggregated sales metrics, active AI escalations, and orders from Supabase."""
         all_orders = db_client.get_all_orders()
         db_escalations = db_client.get_all_ai_escalations()
-
-        # Seed default realistic escalations if table is empty
-        if not db_escalations:
-            default_seeds = [
-                {
-                    "escalation_id": "ESC-AI-201",
-                    "customer_name": "Balaji Dental Care LLP",
-                    "session_id": "cust-balaji-01",
-                    "priority": "HIGH",
-                    "status": "AWAITING_AGENT",
-                    "ai_confidence_score": 0.42,
-                    "confidence_band": "LOW_CONFIDENCE",
-                    "trigger_reason": "Ambiguous Bandwidth & Complex Multi-Site Topology",
-                    "what_ai_could_not_extract": ["Exact intra-site latency requirement", "Private MPLS vs Internet Leased Line preference", "On-premise firewall hardware vendor"],
-                    "ai_discovery_summary": "Customer operates clinic with dental imaging units across Kochi and Pune. Stated need for 200 Mbps with failover, but did not confirm if branches need direct Layer-2 bridging or IPsec overlay.",
-                    "recommended_action": "Enterprise Sales Specialist consultation required to size dedicated symmetric leased line and configure SD-WAN controller.",
-                    "timestamp": "Today at 05:42 PM"
-                },
-                {
-                    "escalation_id": "ESC-AI-202",
-                    "customer_name": "Mahalaxmi Textiles & Garments",
-                    "session_id": "cust-textile-09",
-                    "priority": "MEDIUM",
-                    "status": "OPEN",
-                    "ai_confidence_score": 0.58,
-                    "confidence_band": "MODERATE_RISK",
-                    "trigger_reason": "Budget Constraint vs SLA Expectation Mismatch",
-                    "what_ai_could_not_extract": ["Annual commercial turnover band", "Existing telecom contract exit penalties"],
-                    "ai_discovery_summary": "Customer requested 99.9% optical leased line with 24-hour MTTR SLA, but indicated budget under ₹2,000/mo which is below base commercial leased line tariff.",
-                    "recommended_action": "Offer Biz 5G AirFiber 100 with failover as cost-effective alternative or negotiate 24-month contract discount.",
-                    "timestamp": "Today at 06:15 PM"
-                },
-                {
-                    "escalation_id": "ESC-AI-203",
-                    "customer_name": "Shree Ganesh Agro Logistics",
-                    "session_id": "cust-agro-14",
-                    "priority": "HIGH",
-                    "status": "IN_REVIEW",
-                    "ai_confidence_score": 0.35,
-                    "confidence_band": "CRITICAL_ESCALATION",
-                    "trigger_reason": "KYC Document Flag: Address Mismatch & Expired Bill",
-                    "what_ai_could_not_extract": ["Current registered principal place of business electricity account number"],
-                    "ai_discovery_summary": "Uploaded electricity bill exceeded 90-day validity window (dated 140 days ago) and trade name on GST certificate had slight constitution variance.",
-                    "recommended_action": "Request updated utility bill dated within 90 days or municipal tax receipt for principal depot.",
-                    "timestamp": "Today at 06:28 PM"
-                }
-            ]
-            for s in default_seeds:
-                db_client.save_ai_escalation(s)
-            db_escalations = default_seeds
+        all_decisions = db_client.get_customer_decisions(limit=20)
+        rejections = [d for d in all_decisions if d.get("decision_type") == "REJECTED"]
 
         return {
             "total_leads": 5000,
@@ -299,7 +254,7 @@ class OrderLifecycleService:
             "conversion_rate_percent": 7.4,
             "avg_lead_to_activation_days": 17.6,
             "recent_orders": all_orders[:10],
-            "rejections": self.rejections[-10:],
+            "rejections": rejections[:10],
             "active_escalations": db_escalations
         }
 

@@ -22,18 +22,25 @@ pids
 Thumbs.db
 __MACOSX/
 
+
+
 # Coverage and test output
 coverage/
 .nyc_output/
 .pytest_cache/
+
 
 # Python compiled artifacts
 __pycache__/
 *.py[cod]
 *$py.class
 
+
 # Temporary audio files
 *.wav
 temp/
 tmp/
 .venv/
+
+
+frontend/

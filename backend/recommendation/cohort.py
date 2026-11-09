@@ -71,7 +71,7 @@ class CohortMatcher:
         thresholds = load_thresholds()
         min_cohort = thresholds.get("min_cohort", 30)
 
-        all_leads = list(db_client.leads.values())
+        all_leads = db_client.get_all_leads()
         if not all_leads:
             return {"level": 6, "n": 0, "filters": ["all"], "leads": []}
 

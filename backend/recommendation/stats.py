@@ -70,7 +70,7 @@ class CohortStatsService:
         })
 
         if all_leads is None:
-            all_leads = list(db_client.leads.values())
+            all_leads = db_client.get_all_leads()
 
         # Base population rates for shrinkage
         act_all = [l for l in all_leads if l.get("outcome") == "Activated"]
